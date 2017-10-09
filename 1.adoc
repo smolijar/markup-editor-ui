@@ -1,0 +1,30 @@
+:name: Markup editor
+
+= {name} (Lo-Fi prototype)
+
+== About
+Brief:: In-browser markup editor for expirenced users.
+Platform:: Web browser
+
+=== Authors
+ *Šmolík Jaroslav*::
+    * mailto:smolijar@fit.cvut.cz[]
+    * todo jobs on phase...
+ Uhnák Peter::
+    * mailto:uhnakpet@fit.cvut.cz[]
+    * todo jobs on phase...
+ Špak Maroš::
+    * mailto:spakmaro@fit.cvut.cz[]
+    * todo jobs on phase...
+ Chmelař Petr::
+    * mailto:chmelpe7@fit.cvut.cz[]
+    * todo jobs on phase...
+
+== Product statement
+== Needs assesment
+== Business requirements
+== Use cases
+== Tasklist list
+== Tasklist group
+== Tasklist graph
+== Wireframe
