@@ -1,0 +1,29 @@
+= Markup editor UI
+
+UI design of web browser embeddable editor for markup editting focused on geeky users.
+This project serves as a collaboration platform for user interface design of said editor in course MI-NUR at FIT CTU.
+
+== Milestone phases
+
+=== Lo-fi prototype
+
+ - Product statement
+ - Needs assesment
+ - Business requirements
+ - Use cases
+ - Tasklist list
+ - Tasklist group
+ - Tasklist graph
+ - Wireframe
+
+=== Hi-fi prototype
+
+...
+
+=== Testing
+
+...
+
+== Suggested contribution workflow
+
+When solution of any task agreed upon, create MR with appropriate edits in created templates.
