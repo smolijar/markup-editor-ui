@@ -1,24 +1,24 @@
 :name: Markup editor
 
-= {name} (Lo-Fi prototype)
+= {name} (Lo-Fi prototyp)
 
-== About
-Brief:: In-browser markup editor for expirenced users.
-Platform:: Web browser
+== O projektu
+Stručný popis:: Webový editor značkovacích jazyků pro pokročilé uživatele.
+Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci webové aplikace)
 
-=== Authors
+=== Autoři
  *Šmolík Jaroslav*::
     * mailto:smolijar@fit.cvut.cz[]
-    * todo jobs on phase...
+    * co dělal...
  Uhnák Peter::
     * mailto:uhnakpet@fit.cvut.cz[]
-    * todo jobs on phase...
+    * co dělal...
  Špak Maroš::
     * mailto:spakmaro@fit.cvut.cz[]
-    * todo jobs on phase...
+    * co dělal...
  Chmelař Petr::
     * mailto:chmelpe7@fit.cvut.cz[]
-    * todo jobs on phase...
+    * co dělal...
 
 == Product statement
 == Needs assesment
