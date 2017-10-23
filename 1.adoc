@@ -22,6 +22,26 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
 
 == Product statement
 == Business requirements
+== Feature brainstorming
+
+- Skoč na řádek
+- Fullscreen mód
+- Vyhledávání v dokumentu
+- Autocomplete
+- Syntax highlight
+- Náhled dokumentu
+- Dvousloupečkový náhled (zdrojový kód vedle náhledu hotového dokumentu)
+- Command pallette
+- Document outline preview
+- Spellcheck
+- Čísla řádek (toggle)
+- Zalamování textu
+- Sbalování sekcí kódu
+- Distraction free mód
+- Diff (indikace změněných řídek)
+- Běžné klávesové zkratky
+- Status bar
+
 == Use cases
 == Tasklist list
 == Tasklist group
