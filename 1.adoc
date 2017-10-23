@@ -21,7 +21,6 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
     * co dělal...
 
 == Product statement
-== Needs assesment
 == Business requirements
 == Use cases
 == Tasklist list
