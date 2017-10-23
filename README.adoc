@@ -7,14 +7,7 @@ This project serves as a collaboration platform for user interface design of sai
 
 === Lo-fi prototype
 
- - Product statement
- - Needs assesment
- - Business requirements
- - Use cases
- - Tasklist list
- - Tasklist group
- - Tasklist graph
- - Wireframe
+link:./1.adoc[Lo-fi prototype]
 
 === Hi-fi prototype
 
