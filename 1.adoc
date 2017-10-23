@@ -23,6 +23,12 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
 == Product statement
 == Needs assesment
 == Business requirements
+
+Cílem editoru je efektivní použití pro danou cílovou skupinu.
+Prioritou při editování dokumentu je jeho obsah, nikoli vzhled.
+Přesto že se jedná o editor dokumentů, je snahou přiblížit se kodérským editorům, kde má uživatel přímou kontrolu nad zdrojovým kódem dokumentu, než nabízet omezený WYSIWYG editor.
+Výsledná komponenta je využitelná jako editor v rámci blogovacího nebo wiki systému.
+
 == Use cases
 == Tasklist list
 == Tasklist group
