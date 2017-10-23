@@ -23,7 +23,62 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
 == Product statement
 == Business requirements
 == Use cases
-== Tasklist list
-== Tasklist group
+== Tasklist and groups
+
+[NOTE]
+====
+Protože se jedná o embedovatelnou komponentu, je nutné myslet na to, jak bude vypadat editor na cílové stránce.
+Zde předpokládáme dvě možnosti.
+
+Nejedná se o tasky, nicméně tyto možnosti musí být zohledněny při návrhu wireframes.
+
+. Embedování editoru v rámci webové aplikace
++
+Editor bude jako element v DOM, mezi ostatními prvky webové stránky.
+Je tedy nutné počítat s menším místem pro samotný editor.
+. Fullscreen zobrazení editoru
++
+Editor bude bez ohledu na umístění v rámci webové stránky umožňovat zobrazení na celou obrazovku, které poskytne uživateli nerušené prostředí, nezávislé na umístění editoru do layoutu.
+====
+
+Každý nadpis v této sekci tvoří skupunu tasků.
+Skupiny jsou tvořené logickou sounáležitostí tasků.
+
+=== Zobrazovací módy
+. Zobrazení zdrojového kódu
+. Zobrazení náhledu dokumentu
+. Zobrazení zdrojového kódu a náhledu dokumentu ve dvou sloupcích vedle sebe
+. Synchronizované scrollování ve dvousloupcovém módu
+. Distraction free mód
+. Zobrazení/skrytí čísel řádek ve zdrojovém kódu
+. Vypnutí/zapnutí zalamování textu
+. Vypnutí/zapnutí kontroly pravopisu ve zdrojovém kódu
+. Sbalování/rozbalování bloků ve zdrojovém kódu
+
+=== Navigace
+. Vyhledávání textu
+. Skočit na řádek
+. Zobrazení/skrytí struktury dokumentu (outline generovaná z nadpisu)
+. Navigace pomocí struktury dokumentu (kliknutí na nadpis vyhledá řádek ve zdrojovém kódu)
+
+=== Editace
+. Mutlicuror editace
+. Copy & paste
+. Běžné klávesové zkratky
+. Autocomplete
+. Autosave
+
+=== Nastavení
+. Přepínání zobrazovacího módu (zdroj, náhled, vedle sebe)
+. Vypnutí/zapnutí zobrazení čísel řádků
+. Vypnutí/zapnutí zalamování textu
+. Vypnutí/zapnutí kontroly pravopisu
+. Vypnutí/zapnutí distraction free módu 
+. Vypnutí/zapnutí zobrazení outline
+
+=== Přehled možností editoru
+. Seznámení se základními klávesovými zkratkami a pokročilou interakcí formou tutoriálu nebo přehledu
+
+
 == Tasklist graph
 == Wireframe
