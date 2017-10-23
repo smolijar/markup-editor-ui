@@ -27,3 +27,15 @@ This project serves as a collaboration platform for user interface design of sai
 == Suggested contribution workflow
 
 When solution of any task agreed upon, create MR with appropriate edits in created templates.
+
+== Using ASCIIDoc
+
+It's easy, readable and rich. Basic syntax is very similliar to Markdown.
+See link:http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Quick reference guide].
+
+[TIP]
+====
+To preview documents use http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/#installing-the-development-versions[browser extensions]!
+
+It is, in my expirience, the fastest and easiest way to get started.
+====
