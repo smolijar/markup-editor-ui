@@ -41,7 +41,7 @@ Je tedy nutné počítat s menším místem pro samotný editor.
 Editor bude bez ohledu na umístění v rámci webové stránky umožňovat zobrazení na celou obrazovku, které poskytne uživateli nerušené prostředí, nezávislé na umístění editoru do layoutu.
 ====
 
-Každý nadpis v této sekci tvoří skupunu tasků.
+Každý nadpis v této sekci tvoří skupinu tasků.
 Skupiny jsou tvořené logickou sounáležitostí tasků.
 
 === Zobrazovací módy
@@ -62,7 +62,7 @@ Skupiny jsou tvořené logickou sounáležitostí tasků.
 . Navigace pomocí struktury dokumentu (kliknutí na nadpis vyhledá řádek ve zdrojovém kódu)
 
 === Editace
-. Mutlicuror editace
+. Multicursor editace
 . Copy & paste
 . Běžné klávesové zkratky
 . Autocomplete
