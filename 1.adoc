@@ -43,7 +43,7 @@ U větších dokumentů je vhodné využít tuto strukturu pro navigaci ve zdroj
 
 . **Nastaveni voleb editoru**
 +
-Uživatel musí mít možnost funkcí editoru, které nesouvisí přímo s editací zdrojového kódu dokumentu.
+Uživatel musí mít možnost nastavení funkcí editoru, které nesouvisí přímo s editací zdrojového kódu dokumentu.
 Například se jedná o přepínání zobrazovacích módu.
 
 . **Pomoc uživateli s pokročilými funkcemi**
