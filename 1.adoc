@@ -29,7 +29,7 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
 Uživatel může zvolit zobrazení editoru vhodné pro to, čemu se chce právě věnovat.
 +
  - Dvousloupčekový mód editoru (zdrojový kód a náhled) je vhodný pro běžné úpravy, nebo pokud uživatel využívá pokročilé funkce LML a chce zkontrolovat výstup preprocessoru.
- - Náhled pouze drojového kódu je vhodný pro nerušené psaní dokumentu, kde se autor soustředí na obsah.
+ - Náhled pouze zdrojového kódu je vhodný pro nerušené psaní dokumentu, kde se autor soustředí na obsah.
  - Náhled pouze dokumentu je vhodný pro revizi hotového obsahu.
 
 . **Editace dokumentu**
@@ -46,10 +46,10 @@ U větších dokumentů je vhodné využít tuto strukturu pro navigaci ve zdroj
 Uživatel musí mít možnost funkcí editoru, které nesouvisí přímo s editací zdrojového kódu dokumentu.
 Například se jedná o přepínání zobrazovacích módu.
 
-. **Pomoc uživateli s pokročilýmmi funkcemi**
+. **Pomoc uživateli s pokročilými funkcemi**
 +
 Editor bude poskytovat uživatelům přirozené UI pro úpravu dokumentu.
-Vzhledem k povaze uživatlů se předpokládá, že preferují ovládání pomocí klávesnice před klikáním na popsaná tlačítka.
+Vzhledem k povaze uživatelů se předpokládá, že preferují ovládání pomocí klávesnice před klikáním na popsaná tlačítka.
 Bylo by vhodné poskytnout nějakou formu pomoci, tutorialu, či přehledu pokročilých funkcí editoru.
 
 
