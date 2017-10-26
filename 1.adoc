@@ -67,6 +67,7 @@ Skupiny jsou tvořené logickou sounáležitostí tasků.
 . Běžné klávesové zkratky
 . Autocomplete
 . Autosave
+. Přesunutí sekcí v outline
 
 === Nastavení
 . Přepínání zobrazovacího módu (zdroj, náhled, vedle sebe)
@@ -75,6 +76,7 @@ Skupiny jsou tvořené logickou sounáležitostí tasků.
 . Vypnutí/zapnutí kontroly pravopisu
 . Vypnutí/zapnutí distraction free módu 
 . Vypnutí/zapnutí zobrazení outline
+. Nastavení živého náhledu (live, timeout, manual)
 
 === Přehled možností editoru
 . Seznámení se základními klávesovými zkratkami a pokročilou interakcí formou tutoriálu nebo přehledu
