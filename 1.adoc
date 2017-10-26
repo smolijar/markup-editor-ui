@@ -22,7 +22,7 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
 
 == Product statement
 
-Markup editor je webová embedovatelná komponenta pro editaci dokumentů v jazycích LML.
+Markup editor je webová embedovatelná komponenta pro editaci dokumentů v jazycích LML (Lightweight Markup Language).
 Editor je určen pro technicky zdatné uživatele, u kterých se předpokládá
 
 - znalost syntaxe použitého LML a 
