@@ -31,6 +31,13 @@ Editor je určen pro technicky zdatné uživatele, u kterých se předpokládá
 Cílem je zprostředkování efektivního psaní dokumentů těmto uživatelům.
 
 == Business requirements
+
+Cílem editoru je efektivní použití pro danou cílovou skupinu.
+Prioritou při editování dokumentu je jeho obsah, nikoli vzhled.
+Přesto že se jedná o editor dokumentů, je snahou přiblížit se kodérským editorům, kde má uživatel přímou kontrolu nad zdrojovým kódem dokumentu, než nabízet omezený WYSIWYG editor.
+Pohodlnost WYSIWYG editoru je kompenzována real-time náhledem.
+Výsledná komponenta je využitelná jako editor v rámci blogovacího nebo wiki systému.
+
 == Use cases
 == Tasklist list
 == Tasklist group
