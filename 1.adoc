@@ -100,9 +100,64 @@ Editor bude poskytovat uživatelům přirozené UI pro úpravu dokumentu.
 Vzhledem k povaze uživatelů se předpokládá, že preferují ovládání pomocí klávesnice před klikáním na popsaná tlačítka.
 Bylo by vhodné poskytnout nějakou formu pomoci, tutorialu, či přehledu pokročilých funkcí editoru.
 
+== Tasklist and groups
+
+[NOTE]
+====
+Protože se jedná o embedovatelnou komponentu, je nutné myslet na to, jak bude vypadat editor na cílové stránce.
+Zde předpokládáme dvě možnosti.
+
+Nejedná se o tasky, nicméně tyto možnosti musí být zohledněny při návrhu wireframes.
+
+. Embedování editoru v rámci webové aplikace
++
+Editor bude jako element v DOM, mezi ostatními prvky webové stránky.
+Je tedy nutné počítat s menším místem pro samotný editor.
+. Fullscreen zobrazení editoru
++
+Editor bude bez ohledu na umístění v rámci webové stránky umožňovat zobrazení na celou obrazovku, které poskytne uživateli nerušené prostředí, nezávislé na umístění editoru do layoutu.
+====
+
+Každý nadpis v této sekci tvoří skupinu tasků.
+Skupiny jsou tvořené logickou sounáležitostí tasků.
+
+=== Zobrazovací módy
+. Zobrazení zdrojového kódu
+. Zobrazení náhledu dokumentu
+. Zobrazení zdrojového kódu a náhledu dokumentu ve dvou sloupcích vedle sebe
+. Synchronizované scrollování ve dvousloupcovém módu
+. Distraction free mód
+. Zobrazení/skrytí čísel řádek ve zdrojovém kódu
+. Vypnutí/zapnutí zalamování textu
+. Vypnutí/zapnutí kontroly pravopisu ve zdrojovém kódu
+. Sbalování/rozbalování bloků ve zdrojovém kódu
+
+=== Navigace
+. Vyhledávání textu
+. Skočit na řádek
+. Zobrazení/skrytí struktury dokumentu (outline generovaná z nadpisu)
+. Navigace pomocí struktury dokumentu (kliknutí na nadpis vyhledá řádek ve zdrojovém kódu)
+
+=== Editace
+. Multicursor editace
+. Copy & paste
+. Běžné klávesové zkratky
+. Autocomplete
+. Autosave
+. Přesunutí sekcí v outline
+
+=== Nastavení
+. Přepínání zobrazovacího módu (zdroj, náhled, vedle sebe)
+. Vypnutí/zapnutí zobrazení čísel řádků
+. Vypnutí/zapnutí zalamování textu
+. Vypnutí/zapnutí kontroly pravopisu
+. Vypnutí/zapnutí distraction free módu 
+. Vypnutí/zapnutí zobrazení outline
+. Nastavení živého náhledu (live, timeout, manual)
+
+=== Přehled možností editoru
+. Seznámení se základními klávesovými zkratkami a pokročilou interakcí formou tutoriálu nebo přehledu
 
 
-== Tasklist list
-== Tasklist group
 == Tasklist graph
 == Wireframe
