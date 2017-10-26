@@ -30,7 +30,6 @@ Editor je určen pro technicky zdatné uživatele, u kterých se předpokládá
 
 Cílem je zprostředkování efektivního psaní dokumentů těmto uživatelům.
 
-== Needs assesment
 == Business requirements
 == Use cases
 == Tasklist list
