@@ -21,7 +21,24 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
     * co dělal...
 
 == Product statement
+
+Markup editor je webová embedovatelná komponenta pro editaci dokumentů v jazycích LML (Lightweight Markup Language).
+Editor je určen pro technicky zdatné uživatele, u kterých se předpokládá
+
+- znalost syntaxe použitého LML a 
+- zkušenost s IDE, či editory zdrojových kódů.
+
+Cílem je zprostředkování efektivního psaní dokumentů těmto uživatelům.
+
 == Business requirements
+
+Cílem editoru je efektivní použití pro danou cílovou skupinu.
+Prioritou při editování dokumentu je jeho obsah, nikoli vzhled.
+Přesto že se jedná o editor dokumentů, je snahou přiblížit se kodérským editorům, kde má uživatel přímou kontrolu nad zdrojovým kódem dokumentu, než nabízet omezený WYSIWYG editor.
+Pohodlnost WYSIWYG editoru je kompenzována real-time náhledem.
+Výsledná komponenta je využitelná jako editor v rámci blogovacího nebo wiki systému.
+
+
 == Feature brainstorming
 
 - Skoč na řádek
