@@ -21,7 +21,23 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
     * co dělal...
 
 == Product statement
+
+Markup editor je webová embedovatelná komponenta pro editaci dokumentů v jazycích LML (Lightweight Markup Language).
+Editor je určen pro technicky zdatné uživatele, u kterých se předpokládá
+
+- znalost syntaxe použitého LML a 
+- zkušenost s IDE, či editory zdrojových kódů.
+
+Cílem je zprostředkování efektivního psaní dokumentů těmto uživatelům.
+
 == Business requirements
+
+Cílem editoru je efektivní použití pro danou cílovou skupinu.
+Prioritou při editování dokumentu je jeho obsah, nikoli vzhled.
+Přesto že se jedná o editor dokumentů, je snahou přiblížit se kodérským editorům, kde má uživatel přímou kontrolu nad zdrojovým kódem dokumentu, než nabízet omezený WYSIWYG editor.
+Pohodlnost WYSIWYG editoru je kompenzována real-time náhledem.
+Výsledná komponenta je využitelná jako editor v rámci blogovacího nebo wiki systému.
+
 == Restrictions
 
 Editor bude ve výsledné podobě modulární a poskytovat podporu více jazyků formou modulů.
@@ -29,7 +45,63 @@ Pro potřeby projektu budeme uvažovat pouze jazyk Markdown.
 
 Vzhledem k rozsahu projektu předpokládáme, že nestihneme implementovat všechny pokročilé funkce editoru, nicméně poskytneme použitelnou implementaci pro editování běžných Markdown dokumentů.
 
+== Feature brainstorming
+
+- Skoč na řádek
+- Fullscreen mód
+- Vyhledávání v dokumentu
+- Autocomplete
+- Syntax highlight
+- Živý náhled dokumentu
+- Dvousloupečkový náhled (zdrojový kód vedle náhledu hotového dokumentu)
+- Command pallette
+- Document outline preview
+- Spellcheck
+- Čísla řádek (toggle)
+- Zalamování textu
+- Sbalování sekcí kódu
+- Distraction free mód
+- Diff (indikace změněných řádek)
+- Běžné klávesové zkratky
+- Status bar
+- Synchronizované scrollování editoru a preview
+- Možnost se proklikávat z preview do editoru
+- Přesouvání celých skecí v dokumentu pomocí outline
+- Paste obrázku přímo do editoru, který to promění na správnou LML syntaxi a obrázek uloží
+- Manipulace s tabulkami
+
 == Use cases
+
+. **Zvolitelný zobrazovací mód editoru**
++
+Uživatel může zvolit zobrazení editoru vhodné pro to, čemu se chce právě věnovat.
++
+ - Dvousloupčekový mód editoru (zdrojový kód a náhled) je vhodný pro běžné úpravy, nebo pokud uživatel využívá pokročilé funkce LML a chce zkontrolovat výstup preprocessoru.
+ - Náhled pouze zdrojového kódu je vhodný pro nerušené psaní dokumentu, kde se autor soustředí na obsah.
+ - Náhled pouze dokumentu je vhodný pro revizi hotového obsahu.
+
+. **Editace dokumentu**
++
+Uživatel upravuje dokument přímou editací zdrojového kódu v LML.
+
+. **Navigace v dokumentu**
++
+Každý LML vytváří implicitně strukturu dokumentu, pomocí nadpisů různých úrovní.
+U větších dokumentů je vhodné využít tuto strukturu pro navigaci ve zdrojovém kódu.
+
+. **Nastaveni voleb editoru**
++
+Uživatel musí mít možnost nastavení funkcí editoru, které nesouvisí přímo s editací zdrojového kódu dokumentu.
+Například se jedná o přepínání zobrazovacích módu.
+
+. **Pomoc uživateli s pokročilými funkcemi**
++
+Editor bude poskytovat uživatelům přirozené UI pro úpravu dokumentu.
+Vzhledem k povaze uživatelů se předpokládá, že preferují ovládání pomocí klávesnice před klikáním na popsaná tlačítka.
+Bylo by vhodné poskytnout nějakou formu pomoci, tutorialu, či přehledu pokročilých funkcí editoru.
+
+
+
 == Tasklist list
 == Tasklist group
 == Tasklist graph
