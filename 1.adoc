@@ -29,7 +29,7 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
 - Vyhledávání v dokumentu
 - Autocomplete
 - Syntax highlight
-- Náhled dokumentu
+- Živý náhled dokumentu
 - Dvousloupečkový náhled (zdrojový kód vedle náhledu hotového dokumentu)
 - Command pallette
 - Document outline preview
@@ -38,9 +38,14 @@ Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci web
 - Zalamování textu
 - Sbalování sekcí kódu
 - Distraction free mód
-- Diff (indikace změněných řídek)
+- Diff (indikace změněných řádek)
 - Běžné klávesové zkratky
 - Status bar
+- Synchronizované scrollování editoru a preview
+- Možnost se proklikávat z preview do editoru
+- Přesouvání celých skecí v dokumentu pomocí outline
+- Paste obrázku přímo do editoru, který to promění na správnou LML syntaxi a obrázek uloží
+- Manipulace s tabulkami
 
 == Use cases
 == Tasklist list
