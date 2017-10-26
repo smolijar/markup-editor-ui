@@ -38,6 +38,12 @@ Přesto že se jedná o editor dokumentů, je snahou přiblížit se kodérským
 Pohodlnost WYSIWYG editoru je kompenzována real-time náhledem.
 Výsledná komponenta je využitelná jako editor v rámci blogovacího nebo wiki systému.
 
+== Restrictions
+
+Editor bude ve výsledné podobě modulární a poskytovat podporu více jazyků formou modulů.
+Pro potřeby projektu budeme uvažovat pouze jazyk Markdown.
+
+Vzhledem k rozsahu projektu předpokládáme, že nestihneme implementovat všechny pokročilé funkce editoru, nicméně poskytneme použitelnou implementaci pro editování běžných Markdown dokumentů.
 
 == Feature brainstorming
 
