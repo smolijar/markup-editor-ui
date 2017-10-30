@@ -9,18 +9,18 @@ Stručný popis:: Webový editor značkovacích jazyků pro pokročilé uživate
 Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci webové aplikace)
 
 === Autoři
- *Šmolík Jaroslav*::
+ *Šmolík Jaroslav* (vedoucí týmu)::
     * mailto:smolijar@fit.cvut.cz[]
-    * co dělal...
+    * Organizace týmu, diskuse osnovy zprávy, brainstorming features, tasklist graph, návrh finálních textů, návrh wireframes
  Uhnák Peter::
     * mailto:uhnakpet@fit.cvut.cz[]
-    * co dělal...
+    * Diskuse osnovy zprávy, brainstorming features, revize textů, revize tasklist grafu, revize wireframes.
  Špak Maroš::
     * mailto:spakmaro@fit.cvut.cz[]
-    * co dělal...
+    * Diskuse osnovy zprávy, brainstorming features, revize textů, revize tasklist grafu, revize wireframes.
  Chmelař Petr::
     * mailto:chmelpe7@fit.cvut.cz[]
-    * co dělal...
+    * Diskuse osnovy zprávy, brainstorming features, revize textů, revize tasklist grafu, revize wireframes.
 
 == Product statement
 
