@@ -68,7 +68,7 @@ Vzhledem k rozsahu projektu předpokládáme, že nestihneme implementovat všec
 - Status bar
 - Synchronizované scrollování editoru a preview
 - Možnost se proklikávat z preview do editoru
-- Přesouvání celých skecí v dokumentu pomocí outline
+- Přesouvání celých sekcí v dokumentu pomocí outline
 - Paste obrázku přímo do editoru, který to promění na správnou LML syntaxi a obrázek uloží
 - Manipulace s tabulkami
 
