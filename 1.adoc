@@ -1,8 +1,8 @@
+= Markup editor: Lo-Fi prototyp
+Šmolík Jaroslav, Uhnák Peter, Špak Maroš, Chmelař Petr
+Semestrální projekt MI-NUR
 :icons: font
-:name: Markup editor
-
-= {name} (Lo-Fi prototyp)
-MI-NUR
+:toc:
 
 == O projektu
 Stručný popis:: Webový editor značkovacích jazyků pro pokročilé uživatele.
