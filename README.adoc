@@ -32,3 +32,13 @@ To preview documents use http://asciidoctor.org/docs/editing-asciidoc-with-live-
 
 It is, in my expirience, the fastest and easiest way to get started.
 ====
+
+=== Generate PDF
+[TIP]
+====
+Create PDF using https://github.com/asciidoctor/asciidoctor-pdf[asciidoctor-pdf]
+
+`asciidoctor-pdf -a allow-uri-read X.adoc`
+
+(`-a allow-uri-read` to allow fetching remote assets, e.g. plantuml)
+====
