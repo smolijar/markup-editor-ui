@@ -1,3 +1,4 @@
+:icons: font
 :name: Markup editor
 
 = {name} (Lo-Fi prototyp)
