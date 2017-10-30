@@ -2,6 +2,7 @@
 :name: Markup editor
 
 = {name} (Lo-Fi prototyp)
+MI-NUR
 
 == O projektu
 Stručný popis:: Webový editor značkovacích jazyků pro pokročilé uživatele.
