@@ -4,9 +4,7 @@ Semestrální projekt MI-NUR
 :icons: font
 :toc:
 
-== O projektu
-Stručný popis:: Webový editor značkovacích jazyků pro pokročilé uživatele.
-Platforma:: Webový prohlížeč (editor je komponenta použitelná v rámci webové aplikace)
+include::_about.adoc[]
 
 === Autoři
  *Šmolík Jaroslav* (vedoucí týmu)::

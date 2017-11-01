@@ -1,0 +1,25 @@
+= Markup editor: Rešerše + Hi-Fi prototyp
+Šmolík Jaroslav, Uhnák Peter, Špak Maroš, Chmelař Petr
+Semestrální projekt MI-NUR
+:icons: font
+:toc:
+
+include::_about.adoc[]
+
+=== Autoři
+ *Šmolík Jaroslav* (vedoucí týmu)::
+    * mailto:smolijar@fit.cvut.cz[]
+    * TODO co delal
+ Uhnák Peter::
+    * mailto:uhnakpet@fit.cvut.cz[]
+    * TODO co delal
+ Špak Maroš::
+    * mailto:spakmaro@fit.cvut.cz[]
+    * TODO co delal
+ Chmelař Petr::
+    * mailto:chmelpe7@fit.cvut.cz[]
+    * TODO co delal
+
+== Rešerše konkurence
+
+== Hi-fi prototyp
