@@ -11,7 +11,7 @@ link:./1.adoc[Lo-fi prototype]
 
 === Hi-fi prototype
 
-...
+link:./1.adoc[Rešerše + Hi-fi prototype]
 
 === Testing
 
