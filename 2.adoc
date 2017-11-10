@@ -45,6 +45,14 @@ Optional description
 Discuss interesting (both good and bad) features of UI.
 Inlcude screenshots, comment, explain why good/bad, optionally suggest improvement.
 
+==== Pozorování UI v kontextu markup-editor
+Are there some UI elements we have as well?
+Do they look similiar and provide similliar interaction?
+If not, focus on those elements and briefly sum up differences.
+The existing projects might (do not have to though) better (more conventional, user tested) implementation of UI elements.
+Is there something we should consider for our UI?
+(Have a look at things like status bar, command palette, common shortcuts, toolbar, image/table manipulation, etc.)
+
 ===== UI feature 1
 
 .Image caption
