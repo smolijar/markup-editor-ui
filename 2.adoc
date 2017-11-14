@@ -73,4 +73,77 @@ Optional description
 . Minus B
 
 
+=== Sublime Text
+
+Multiplatformní desktopový editor textových souborů a zdrojových kódů s vysokou mírou přizpůsobení prostřednictvím pluginů vyvíjených komunitou. link:+https://www.sublimetext.com/+[https://www.sublimetext.com/]
+
+==== Porovnání rozdílů
+* Nejedná se o webovou komponentu, ale o desktopovou aplikaci.
+* Univerzální editor, není omezený pouze na markdown jazyky.
+* Defaultně neumí zobrazovat náhled markdown dokumentu ani jeho outline (možnost doinstalovat pluginy).
+* Obsahuje propracovanou command pallete, přes kterou lze obsluhovat téměř všechna nastavení.
+
+==== Zhodnocení UI
+
+* Základní UI po instalaci
+** Zobrazený je pouze zdrojový kód s podporou zvýrazňování syntaxe markdown (detekuje na základě přípony .md)
+** Podpora pro více tabů
+
+image:2/subl1.png[]
+
+* UI po instalaci pluginu link:+https://github.com/revolunet/sublimetext-markdown-preview+[Markdown Preview]
+** Plugin umožňuje ze zdrojového kódu vygenerovat preview a následně jej zobrazit například v browseru
+** Možnosti pluginu jsou snadno dostupné přes command pallete
+** Lze nakonfigurovat i jako live preview (při přepnutí do browseru se automaticky přegeneruje)
+
+image:2/subl2.png[]
+image:2/subl3.png[]
+
+* UI po instalaci pluginu link:+https://github.com/math2001/MarkdownLivePreview+[MarkdownLivePreview]
+** Plugin přidává podporu druhého okna, které zobrazuje live preview editovaného dokumentu
+** Podporuje pouze základní prvky markdown jazyka (například neumí generovat tabulky)
+
+image:2/subl4.png[]
+
+* UI editace uživatelských preferencí
+** Po zvolení editace preferencí (z menubaru nebo přes command pallete) se zobrazí nové okno
+** Vlevo jsou defaultní hodnoty editoru, vpravo je možné definovat vlastní hodnoty
+** Slouží převážně pro počáteční nastavení editoru, často používaná nastavení jsou dostupná přímo přes command pallete 
+
+image:2/subl5.png[]
+
+==== Pozorování UI v kontextu markup-editor
+* Command Pallete
+	** Velmi dobře zpracovaná po UI/UX stránce (například zobrazuje relevantní možnosti podle přípony souboru atd)
+	** Po doinstalování pluginů jsou i možnosti těchto pluginů dostupné přes command pallete
+* Preview mód
+	** V zákadním UI žádný preview mód není
+	** Po doinstalování pluginů je nutné buď přepínat do browseru (Markdown Preview), nebo neumí pokročílé prvky jazyka (MarkdownLivePreview)
+* Status bar
+	** Zobrazuje aktuální pozici kurzoru v souboru a typ souboru
+	** Široké možnosti link:+https://forum.sublimetext.com/t/statusbarcontrols-status-bar-customization/32145+[konfigurace]
+* Outline
+	** V základním UI nepodporuje outline dokumentu
+* Práce s tabulkami / Vkládání obrazků
+	** V základním UI neobsahuje žádné rozhraní
+
+==== Zajímavé features
+
+* Velké množství kvalitních pluginů
+* Možnost nastavení autosave na focus lost (přepnutí do jiné aplikace)
+* Je možné nainstalovat git plugin a pracovat s ním přímo z editoru
+
+==== Shrnutí
+
+===== Plusy
+* Pluginy
+* Command Pallete
+* Univerzální editor (lze použít i na jinou práci)
+
+===== Mínusy
+* Bez pluginů neumí preview
+* Bez pluginů neumí generování tabulek
+* Bez pluginů neumí exportovat do jiných formátů
+* Nevhodné pro méně počítačově gramotné uživatele
+
 == Hi-fi prototyp
