@@ -211,7 +211,7 @@ image::https://i.imgur.com/YzpaE45.png[]
 * Nie je možné prepínať režimy zobrazenia
   ** jediná možnosť je mať naľavo zdrojový kód a napravo vyrenderovaný dokument
   ** Žiadny distraction free mod, pri fullscreene stále vidno prvky prehliadača
-* Chýba statusbar, informacie o počte slov je v záhlaví okna 
+* Chýba statusbar, informacia o počte slov je v záhlaví okna 
   ** Chýba informácia o pozícií kurzora v dokumente
 * Nemá outline
 * Práca sa tabuľkami a obrázkami len na úrovni zdrojového kódu
