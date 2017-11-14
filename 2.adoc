@@ -74,42 +74,49 @@ Optional description
 
 === Typora
 
-Dekstopový (Windows, macOS, Linux) komerčný markdown-only (GitHub flavored) editor s live preview dokumentu v rovnakom okne hneď počas písania. link:+https://typora.io+[https://typora.io]
+Dekstopový (Windows, macOS, Linux) komerčný markdown-only (GitHub flavored) editor.
+Dokument je renderovaný v tom istom okne hneď počas písania.
+Pri pohybe kurzoru medzi jednotlivými blokmi sa vyrenderovaný blok rozpadne na zdrojový kód, ktorý je možné editovať.
+link:+https://typora.io+[https://typora.io]
 
 ==== Porovnání rozdílů
-Jedná sa o desktopový editor, nie webovú komponentu. 
-Podporuje iba jazyk markdown (github-flavored). 
-Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá klávesovú skratku. 
-Podporuje zmenu vzhľadu pomocou css šablón.
+* Jedná sa o desktopový editor, nie webovú komponentu. 
+* Podporuje iba jazyk markdown (github-flavored). 
+* Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá klávesovú skratku. 
+* Podporuje zmenu vzhľadu pomocou css šablón.
 
 
 ==== Zhodnocení UI
 
-Defaultné rozhranie so zobrazenou outline dokumentu:
+===== Defaultné rozhranie so zobrazenou outline dokumentu:
 
 image::https://i.imgur.com/n3vyN3i.png[]
 
-* Focus mode
-** Celý dokument vybledne, zvýraznený je len aktívny blok
+Okno editora je rozdelené na 2 hlavné časti, v postrannom paneli naľavo je zobrazená outline dokumentu alebo súborová štruktúra.
+Vpravo je samotný dokument. Informácia o počte slov sa nachádza v title bare. Pod záhlavím okna sa nachádza panel s otvorenými tabmi. 
+
+
+===== Focus mode
+Celý dokument vybledne, zvýraznený je len aktívny blok
 
 image::https://i.imgur.com/u6NGu0Z.png[]
 
-* typewriter mode
-** Zaručí aby aktívny riadok bol vždy v strede editoru. 
+===== typewriter mode
+Zaručí aby aktívny riadok bol vždy v strede editoru. 
 
-* Source code mode
-  ** Namiesto priamo live renderingu je stále zobrazený zdrojový kód, ktorý je zvýraznený nie len farebne ale aj veľkosťou písma, odsadením (vlastne vyrenderovaný dokument kde je miesto textu stále markdown).  
-  ** Pri zapnutí tohto módu nefunguje drag n drop na pridanie obrázku do dokumentu
+===== Source code mode
+Namiesto priamo live renderingu je stále zobrazený zdrojový kód, ktorý je zvýraznený nie len farebne, ale aj veľkosťou písma, odsadením (vlastne vyrenderovaný dokument, kde je miesto textu stále markdown).
+Pri zapnutí tohto módu nefunguje drag n drop na pridanie obrázku do dokumentu
 
 image::https://i.imgur.com/NWJ2Mtz.png[]
 
-* Outline 
-  ** podporu zbalenia/rozbalenia je nutné zapnúť v nastaveniach
-  ** UX fail: linky len na texte, nie na celom riadku outline.
-  ** Pevná šírka 
-* Podpora viacerých tabov (UX fail: ale každý dokument ako aj nápovedu vyvolanú z menu otvorí v novom okne)
-* UX fail: defaultne neexistuje klávesová skratka na otvorenie nového tabu s dokumentom (štandardne cmd+t)
-* Chýbajú presety klavesových skratiek 
+===== Outline 
+* podporu zbalenia/rozbalenia je nutné zapnúť v nastaveniach
+* Pevná šírka 
+
+===== Iné
+* Podpora viacerých tabov
+* Chýbajú presety (napr. vim-like, emacs-like) klavesových skratiek 
 * Nápoveda je formou markdown dokumentu 
 
 ==== Pozorování UI v kontextu markup-editor
@@ -127,7 +134,7 @@ image::https://i.imgur.com/NWJ2Mtz.png[]
 * Práca sa tabuľkami
   ** UI dialog pre vloženie tabuľky (počet riadkov, sĺpcov)
   ** Tabuľka je hneď vyrenderovaná a do buniek je možné vpisovať hodnoty
-  ** Malý toolbar pre výber zarovnania textu v bunkách tabuľky a pohodlný resize
+  ** Malý toolbar pre výber zarovnania textu v bunkách tabuľky a pohodlný resize (zmena počtu buniek)
 
 image::https://i.imgur.com/1uSz1xM.png[]
 
@@ -137,29 +144,29 @@ image::https://i.imgur.com/1uSz1xM.png[]
 
 #### Zajímavé features
 
-(viac menej asi popísané vyššie)
-
-* Pekný syntax highlighting kódu
+* Syntax highlighting kódu, ktorý napríklad používa proporcionálnu veľkosť písma, odsadenie pri nadpisoch. Kód je tým pádom prehľadnejší.
 * Generovanie Table of Contents v dokumente
 * Themes
   ** Na výber z niekoľkých tém, ktoré menia vzhľad ako aj vyrenderovaného dokumentu tak aj zdrojového kódu
-* Export do PDF, docx, OpenOffice, LaTeX, MediaWiki, Epub
+* Export do PDF, docx, odt, LaTeX, MediaWiki, Epub
 
 ==== Shrnutí
 
 ===== Plusy
-* Príjemný vzhľad, možnosť zmeny vzhľadu
+* Možnosť zmeny vzhľadu
 * live rendering šetrí miesto
 * prijemná práca s tabuľkami
 * vkladanie obrázkov drag&drop
-* podpora tabov
+* podpora viacerých tabov
 
 ===== Mínusy
 * Málo možnosti konfigurácie
-* Spellchecker nepodtrháva nesprávne slovo
-* Ak užívateĽ nepozná klávesové skratky je nutné siahnuť po myši (chýba command palleta)
-* komerčný editor
+* Spellchecker nepodtrháva nesprávne slovo (oprava chýb v dialogovom okne)
+* Ak užívateľ nepozná klávesové skratky je nutné siahnuť po myši (chýba command palleta)
+* Komerčný editor
 * Nemožnosť nastaviť otvárenie nového tabu namiesto okna
+* Linky klikateľné len na texte, nie na celom riadku outline.
+* Defaultne nie je priradená klávesová skratka na otvorenie nového tabu s dokumentom (štandardne cmd+t)
 
 
 === AsciiDocLIVE
@@ -169,7 +176,11 @@ image::https://i.imgur.com/1uSz1xM.png[]
 
 ==== Porovnání rozdílů
 
-Jedná sa o webovú komponentu, ktorá ale nie je embedovateľná. Podporuje iba jazyk AsciiDoc. Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá potrebnú klávesovú skratku. Podporuje zmenu vzhľadu pomocou css šablón. Dokument je možné uložiť na Dropbox, Google Drive alebo na filesystém. 
+* Jedná sa o webovú komponentu, ktorá ale nie je embedovateľná. 
+* Podporuje iba jazyk AsciiDoc.
+* Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá potrebnú klávesovú skratku.
+* Podporuje zmenu vzhľadu pomocou css šablón.
+* Dokument je možné uložiť na Dropbox, Google Drive alebo na stiahnutie. 
 
 ==== Zhodnocení UI
 
@@ -183,14 +194,13 @@ image::https://i.imgur.com/O8bixCn.png[]
 
 * Klavesové skratky
   ** možnosť vybrať z 3 presetov (default, vim, emacs)
-  ** UX fail: užívateľ nikde nezistí aké konkrétne klavesové skratky je možné používať 
 
 
 ==== Pozorování UI v kontextu markup-editor
 
-* má Toolbar(menu) v hornej časti
-  ** Otvorenie dokumentu (z Dropboxu, GG Drive, filesystem) alebo vytvorenie nového dokumentu
-  ** uloženie (GG Drive, Dropbox, filesystem)
+* Má Toolbar(menu) v hornej časti
+  ** Otvorenie dokumentu (z Dropboxu, Google Drive, filesystem) alebo vytvorenie nového dokumentu
+  ** Uloženie dokumentu na Google Drive, Dropbox alebo stiahnutie
   ** Nastavenia (sync scrollovanie, autosave, zmena šablóny, písma, presety klav. skratiek)
   ** FAQ, About, AsciiDoc cheatsheet
 
@@ -199,9 +209,9 @@ image::https://i.imgur.com/YzpaE45.png[]
 * Chýba command paleta
 * Nie je k dispozícií zoznam klávesových skratiek
 * Nie je možné prepínať režimy zobrazenia
-  ** jediná možnosť je mať naľavo zdrojový kód a napravo vyrenderovaný dokument :)
+  ** jediná možnosť je mať naľavo zdrojový kód a napravo vyrenderovaný dokument
   ** Žiadny distraction free mod, pri fullscreene stále vidno prvky prehliadača
-* Chýba statusbar
+* Chýba statusbar, informacie o počte slov je v záhlaví okna 
   ** Chýba informácia o pozícií kurzora v dokumente
 * Nemá outline
 * Práca sa tabuľkami a obrázkami len na úrovni zdrojového kódu
@@ -217,20 +227,18 @@ image::https://i.imgur.com/YzpaE45.png[]
 ===== Plusy
 
 - Jednoduchý
-- AsciiDoc?
+- Podpora AsciiDoc, ktorý často v editoroch chýba
 - Open-source
-- Upozorní pred zatvorením stránky a teda stratou dokumentu (:D) 
+- Upozorní pred zatvorením stránky a teda stratou dokumentu
 - Funguje aj pri strate konektivity
 
 ===== Mínusy
 
 - Príliš jednoduchý
-- AsciiDoc?
-
 - Takmer žiadne možnosti konfigurácie
 - Chýbajúca nápoveda ku klavesovým skratkám
-- Nefunkčný auto-save?
-
+- Nefunkčný auto-save footnote:[Funkcionalita auto-save počas testovania nevykazovala žiadne známky spojiteľné s jej funkčnosťou.]
+- Užívateľ nikde nezistí aké konkrétne klavesové skratky je možné používať
 
 
 == Hi-fi prototyp
