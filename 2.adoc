@@ -75,13 +75,14 @@ Optional description
 
 === Sublime Text
 
-Multiplatformní desktopový editor textových souborů a zdrojových kódů s vysokou mírou přizpůsobení prostřednictvím pluginů vyvíjených komunitou. link:+https://www.sublimetext.com/+[https://www.sublimetext.com/]
+* Multiplatformní desktopový editor textových souborů a zdrojových kódů s vysokou mírou přizpůsobení prostřednictvím pluginů vyvíjených komunitou
+* link:+https://www.sublimetext.com/+[https://www.sublimetext.com/]
 
 ==== Porovnání rozdílů
-* Nejedná se o webovou komponentu, ale o desktopovou aplikaci.
-* Univerzální editor, není omezený pouze na markdown jazyky.
-* Defaultně neumí zobrazovat náhled markdown dokumentu ani jeho outline (možnost doinstalovat pluginy).
-* Obsahuje propracovanou command pallete, přes kterou lze obsluhovat téměř všechna nastavení.
+* Nejedná se o webovou komponentu, ale o desktopovou aplikaci
+* Univerzální editor, není omezený pouze na markdown jazyky
+* Defaultně neumí zobrazovat preview markdown dokumentu ani jeho outline (možnost doinstalovat pluginy)
+* Obsahuje propracovanou command pallete, přes kterou lze obsluhovat téměř všechna nastavení
 
 ==== Zhodnocení UI
 
@@ -113,22 +114,24 @@ image:2/subl4.png[]
 image:2/subl5.png[]
 
 ==== Pozorování UI v kontextu markup-editor
+* Tool bar
+	** V základním UI žádný toolbar není
+	** Všechny možnosti jsou dostupné přes klávesové zkrátky nebo command pallete
 * Command Pallete
 	** Velmi dobře zpracovaná po UI/UX stránce (například zobrazuje relevantní možnosti podle přípony souboru atd)
 	** Po doinstalování pluginů jsou i možnosti těchto pluginů dostupné přes command pallete
 * Preview mód
-	** V zákadním UI žádný preview mód není
+	** V základním UI žádný preview mód není
 	** Po doinstalování pluginů je nutné buď přepínat do browseru (Markdown Preview), nebo neumí pokročílé prvky jazyka (MarkdownLivePreview)
 * Status bar
 	** Zobrazuje aktuální pozici kurzoru v souboru a typ souboru
 	** Široké možnosti link:+https://forum.sublimetext.com/t/statusbarcontrols-status-bar-customization/32145+[konfigurace]
 * Outline
 	** V základním UI nepodporuje outline dokumentu
-* Práce s tabulkami / Vkládání obrazků
+* Práce s tabulkami / obrázky / odkazy
 	** V základním UI neobsahuje žádné rozhraní
 
 ==== Zajímavé features
-
 * Velké množství kvalitních pluginů
 * Možnost nastavení autosave na focus lost (přepnutí do jiné aplikace)
 * Je možné nainstalovat git plugin a pracovat s ním přímo z editoru
@@ -142,8 +145,79 @@ image:2/subl5.png[]
 
 ===== Mínusy
 * Bez pluginů neumí preview
-* Bez pluginů neumí generování tabulek
-* Bez pluginů neumí exportovat do jiných formátů
+* Bez pluginů nemá rozhraní pro vkládání tabulek
+* Neumí exportovat do jiných formátů (opět nutný plugin nebo jiný program)
 * Nevhodné pro méně počítačově gramotné uživatele
+
+
+=== SimpleMDE
+
+* Embedovatelný opensource editor implementovaný v JavaScriptu
+* link:+https://simplemde.com/+[https://simplemde.com/]
+
+==== Porovnání rozdílů
+* Jedná se o embedovatelnou webovou komponentu, není vhodný pro použití jako standalone editor
+* Podporuje základní zobrazovací módy (kód / preview / side by side) + fullscreen mód.
+* Nemá command pallete, ovládání pouze prostřednictvím tool baru nebo klávesových zkratek
+* Neumí zobrazovat outline dokumentu
+
+==== Zhodnocení UI
+
+* UI zdrojový kód
+** Zobrazuje zdrojový kód dokumentu se zvýrazněnou syntaxí (barevně i velikostně)
+** Odlišování syntaxe velikostně může být rušivé pro zkušené uživatele
+
+image:2/mde1.png[]
+
+* UI preview
+** Zobrazuje preview vygenerované ze zdrojového kódu
+** Přepnutí prostřednictvím toolbaru nebo klávesové zkratky
+
+image:2/mde2.png[]
+
+* UI side by side
+** V levém okně zobrazuje zdrojový kód, v pravém okně generované live preview
+** Automatická synchronizace scrollování
+** Dostupný pouze ve fullscreen režimu
+
+image:2/mde3.png[]
+
+==== Pozorování UI v kontextu markup-editor
+* Tool bar
+	** Obsahuje pouze základní prvky markdown jazyka (například neumí generovat tabulky)
+	** Všechny možnosti z tool baru jsou dostupné i přes klávesové zkratky
+* Command Pallete
+	** Editor neobsahuje command pallete
+	** Všechna nastavení jsou dostupná přes tool bar nebo klávesové zkratky
+* Preview mód
+	** Možnost přepínaní mezi zdrojovým kódem a preview, nebo zapnutí side by side módů
+	** U všech zobrazení možnost zapnout fullscreen mód
+* Status bar
+	** Zobrazuje aktuální pozici kurzoru v souboru a počet řádků/slov
+* Outline
+	** Editor nepodporuje outline dokumentu
+* Práce s tabulkami / obrázky / odkazy
+	** V toolbaru je možnost vložit obrázek nebo odkaz
+	** Vloží pouze předpis syntaxe daného prvku
+	** Obrázky není možné přímo uploadovat (pouze vložit odkazem)
+
+==== Zajímavé features
+* Autosave a Spellcheck
+* Při embedování možnost konfigurace klávesových zkratek
+* Při embedování možnost přeskupení možností v tool baru
+
+==== Shrnutí
+
+===== Plusy
+* Podpora všech základních zobrazovacích módů
+* Snadno embedovatelný (instalace přes npm)
+* Možnosti vlastní konfigurace při embedování
+* Vhodný i pro méně zkušené uživatele
+
+===== Mínusy
+* Neobsahuje command pallete
+* Žádné rozhraní pro vkládání tabulek / upload obrázků
+* Side by side mód je dostupný pouze ve fullscreen režimu
+
 
 == Hi-fi prototyp
