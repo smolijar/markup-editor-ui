@@ -178,7 +178,7 @@ image:2/mde2.png[]
 * UI side by side
 ** V levém okně zobrazuje zdrojový kód, v pravém okně generované live preview
 ** Automatická synchronizace scrollování
-** Dostupný pouze ve fullscreen režimu
+** Dostupný pouze ve fullscreen módu
 
 image:2/mde3.png[]
 
@@ -190,7 +190,7 @@ image:2/mde3.png[]
 	** Editor neobsahuje command pallete
 	** Všechna nastavení jsou dostupná přes tool bar nebo klávesové zkratky
 * Preview mód
-	** Možnost přepínaní mezi zdrojovým kódem a preview, nebo zapnutí side by side módů
+	** Možnost přepínaní mezi zdrojovým kódem a preview, nebo zapnutí side by side módu
 	** U všech zobrazení možnost zapnout fullscreen mód
 * Status bar
 	** Zobrazuje aktuální pozici kurzoru v souboru a počet řádků/slov
@@ -217,7 +217,7 @@ image:2/mde3.png[]
 ===== Mínusy
 * Neobsahuje command pallete
 * Žádné rozhraní pro vkládání tabulek / upload obrázků
-* Side by side mód je dostupný pouze ve fullscreen režimu
+* Side by side mód je dostupný pouze ve fullscreen módu
 
 
 == Hi-fi prototyp
