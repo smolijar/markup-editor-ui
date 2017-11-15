@@ -80,41 +80,42 @@ Optional description
 
 ==== Porovnání rozdílů
 * Nejedná se o webovou komponentu, ale o desktopovou aplikaci
-* Univerzální editor, není omezený pouze na markdown jazyky
-* Defaultně neumí zobrazovat preview markdown dokumentu ani jeho outline (možnost doinstalovat pluginy)
+* Univerzální editor, není omezený pouze na editaci LML (Lightweight Markup Language)
+* Defaultně neumí zobrazovat preview dokumentu ani jeho outline (možnost doinstalovat pluginy)
 * Obsahuje propracovanou command pallete, přes kterou lze obsluhovat téměř všechna nastavení
 
 ==== Zhodnocení UI
 
-* Základní UI po instalaci
-** Zobrazený je pouze zdrojový kód s podporou zvýrazňování syntaxe markdown (detekuje na základě přípony .md)
-** Podpora pro více tabů
+===== Základní UI po instalaci
+* Podpora pro více tabů
+* Zobrazený je pouze zdrojový kód s podporou zvýrazňování syntaxe (detekuje na základě přípony .md / .adoc / ...)
+* NOTE: Protože Sublime Text je generický editor a použitelný jako LML editor pouze prostřednictvím pluginů, rozhodl jsem se dále prozkoumat pouze jazyk Markdown.
 
 image:2/subl1.png[]
 
-* UI po instalaci pluginu link:+https://github.com/revolunet/sublimetext-markdown-preview+[Markdown Preview]
-** Plugin umožňuje ze zdrojového kódu vygenerovat preview a následně jej zobrazit například v browseru
-** Možnosti pluginu jsou snadno dostupné přes command pallete
-** Lze nakonfigurovat i jako live preview (při přepnutí do browseru se automaticky přegeneruje)
+===== UI po instalaci pluginu link:+https://github.com/revolunet/sublimetext-markdown-preview+[Markdown Preview]
+* Plugin umožňuje ze zdrojového kódu vygenerovat preview a následně jej zobrazit například v browseru
+* Možnosti pluginu jsou snadno dostupné přes command pallete
+* Lze nakonfigurovat i jako live preview (při přepnutí do browseru se automaticky přegeneruje)
 
 image:2/subl2.png[]
 image:2/subl3.png[]
 
-* UI po instalaci pluginu link:+https://github.com/math2001/MarkdownLivePreview+[MarkdownLivePreview]
-** Plugin přidává podporu druhého okna, které zobrazuje live preview editovaného dokumentu
-** Podporuje pouze základní prvky markdown jazyka (například neumí generovat tabulky)
+===== UI po instalaci pluginu link:+https://github.com/math2001/MarkdownLivePreview+[MarkdownLivePreview]
+* Plugin přidává podporu druhého okna, které zobrazuje live preview editovaného dokumentu
+* Podporuje pouze základní prvky jazyka Markdown (například neumí generovat tabulky)
 
 image:2/subl4.png[]
 
-* UI editace uživatelských preferencí
-** Po zvolení editace preferencí (z menubaru nebo přes command pallete) se zobrazí nové okno
-** Vlevo jsou defaultní hodnoty editoru, vpravo je možné definovat vlastní hodnoty
-** Slouží převážně pro počáteční nastavení editoru, často používaná nastavení jsou dostupná přímo přes command pallete 
+===== UI editace uživatelských preferencí
+* Po zvolení editace preferencí (z menubaru nebo přes command pallete) se zobrazí nové okno
+* Vlevo jsou defaultní hodnoty editoru, vpravo je možné definovat vlastní hodnoty
+* Slouží převážně pro počáteční nastavení editoru, často používaná nastavení jsou dostupná přímo přes command pallete 
 
 image:2/subl5.png[]
 
 ==== Pozorování UI v kontextu markup-editor
-* Tool bar
+* Toolbar
 	** V základním UI žádný toolbar není
 	** Všechny možnosti jsou dostupné přes klávesové zkrátky nebo command pallete
 * Command Pallete
@@ -134,7 +135,6 @@ image:2/subl5.png[]
 ==== Zajímavé features
 * Velké množství kvalitních pluginů
 * Možnost nastavení autosave na focus lost (přepnutí do jiné aplikace)
-* Je možné nainstalovat git plugin a pracovat s ním přímo z editoru
 
 ==== Shrnutí
 
@@ -145,50 +145,50 @@ image:2/subl5.png[]
 
 ===== Mínusy
 * Bez pluginů neumí preview
-* Bez pluginů nemá rozhraní pro vkládání tabulek
+* Nemá rozhraní pro vkládání tabulek (v rámci rešerše nebyl nalezen žádný plugin)
 * Neumí exportovat do jiných formátů (opět nutný plugin nebo jiný program)
 * Nevhodné pro méně počítačově gramotné uživatele
 
 
 === SimpleMDE
 
-* Embedovatelný opensource editor implementovaný v JavaScriptu
+* Embedovatelný opensource editor jazyka Markdown implementovaný v JavaScriptu
 * link:+https://simplemde.com/+[https://simplemde.com/]
 
 ==== Porovnání rozdílů
 * Jedná se o embedovatelnou webovou komponentu, není vhodný pro použití jako standalone editor
 * Podporuje základní zobrazovací módy (kód / preview / side by side) + fullscreen mód.
-* Nemá command pallete, ovládání pouze prostřednictvím tool baru nebo klávesových zkratek
+* Nemá command pallete, ovládání pouze prostřednictvím toolbaru nebo klávesových zkratek
 * Neumí zobrazovat outline dokumentu
 
 ==== Zhodnocení UI
 
-* UI zdrojový kód
-** Zobrazuje zdrojový kód dokumentu se zvýrazněnou syntaxí (barevně i velikostně)
-** Odlišování syntaxe velikostně může být rušivé pro zkušené uživatele
+===== UI zdrojový kód
+* Zobrazuje zdrojový kód dokumentu se zvýrazněnou syntaxí (barevně i velikostně)
+* Odlišování syntaxe velikostně může být rušivé pro zkušené uživatele
 
 image:2/mde1.png[]
 
-* UI preview
-** Zobrazuje preview vygenerované ze zdrojového kódu
-** Přepnutí prostřednictvím toolbaru nebo klávesové zkratky
+===== UI preview
+* Zobrazuje preview vygenerované ze zdrojového kódu
+* Přepnutí prostřednictvím toolbaru nebo klávesové zkratky
 
 image:2/mde2.png[]
 
-* UI side by side
-** V levém okně zobrazuje zdrojový kód, v pravém okně generované live preview
-** Automatická synchronizace scrollování
-** Dostupný pouze ve fullscreen módu
+===== UI side by side
+* V levém okně zobrazuje zdrojový kód, v pravém okně generované live preview
+* Automatická synchronizace scrollování
+* Dostupný pouze ve fullscreen módu
 
 image:2/mde3.png[]
 
 ==== Pozorování UI v kontextu markup-editor
-* Tool bar
-	** Obsahuje pouze základní prvky markdown jazyka (například neumí generovat tabulky)
-	** Všechny možnosti z tool baru jsou dostupné i přes klávesové zkratky
+* Toolbar
+	** Obsahuje pouze základní prvky jazyka Markdown (například neumí generovat tabulky)
+	** Všechny možnosti z toolbaru jsou dostupné i přes klávesové zkratky
 * Command Pallete
 	** Editor neobsahuje command pallete
-	** Všechna nastavení jsou dostupná přes tool bar nebo klávesové zkratky
+	** Všechna nastavení jsou dostupná přes toolbar nebo klávesové zkratky
 * Preview mód
 	** Možnost přepínaní mezi zdrojovým kódem a preview, nebo zapnutí side by side módu
 	** U všech zobrazení možnost zapnout fullscreen mód
@@ -204,7 +204,7 @@ image:2/mde3.png[]
 ==== Zajímavé features
 * Autosave a Spellcheck
 * Při embedování možnost konfigurace klávesových zkratek
-* Při embedování možnost přeskupení možností v tool baru
+* Při embedování možnost přeskupení možností v toolbaru
 
 ==== Shrnutí
 
