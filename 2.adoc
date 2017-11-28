@@ -85,7 +85,7 @@ link:+https://www.libreoffice.org/discover/writer/+[https://www.libreoffice.org/
 * Zameraný na netechnických užívateľov, nezobrazuje čísla riadkov, nemá syntax highlighting snippetov zdrojového kódu
 * Ponúka široké možnosti pre prácu s dokumentami (šablóny, generovanie obsahu, práca so bibliografiou,...)
 * Viac možností štýlovania dokumentu (typ, farba, ľubovoľná veľkosť písma, farba zvýraznenia, line spacing, rôzne zarovnanie textu) 
-* Neobsahuje command palletu, všetka funkcionalita je umiestnená v toolbari a menu.
+* Neobsahuje command palletu, všetka funkcionalita je umiestnená v toolbaroch a menu.
 * Nemá klasickú outline, funkcionalitu zastupuje panel _Navigator_ 
 * Obsahuje dialogy pre vkladanie tabuliek, obrázkov, grafov, audia, videa
 * Podpora doplnkov
