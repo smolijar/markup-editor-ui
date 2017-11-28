@@ -22,55 +22,6 @@ include::_about.adoc[]
 
 == Rešerše konkurence
 
-=== Acme editor (example)
-
-Short description. link:++http://acme.com++[Acme editor]
-
-==== Porovnání rozdílů
-Contrast of the Acme editor, compared to Markup Editor.
-e.g. Acme editor is a desktop app and not web component;
-or Acme editor is only Markdown editor and does not handle other LMLs;
-or Acme editor is WYSIWYG and requires extensive mouse usage etc.
-
-==== Zajímavé features
-Optional intro.
-Focus on cool features or features that stand out, compared to other products.
-
-. outstanding feature a
-+
-Optional description
-. outstanding feature b
-
-==== Zhodnocení UI
-Discuss interesting (both good and bad) features of UI.
-Inlcude screenshots, comment, explain why good/bad, optionally suggest improvement.
-
-==== Pozorování UI v kontextu markup-editor
-Are there some UI elements we have as well?
-Do they look similiar and provide similliar interaction?
-If not, focus on those elements and briefly sum up differences.
-The existing projects might (do not have to though) better (more conventional, user tested) implementation of UI elements.
-Is there something we should consider for our UI?
-(Have a look at things like status bar, command palette, common shortcuts, toolbar, image/table manipulation, etc.)
-
-===== UI feature 1
-
-.Image caption
-image::http://www.tidy-mind.com/wp-content/uploads/2013/06/2013-06-25_142513-624x459.png[]
-
-Feature description
-
-==== Shrnutí
-
-===== Plusy
-. Plus A
-+
-Optional description
-. Plus B
-
-===== Mínusy
-. Minus A
-. Minus B
 
 === LibreOffice Writer
 LibreOffice Writer je multiplatformový textový preprocesor z open-source kancelárského balíka LibreOffice.
