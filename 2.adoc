@@ -24,7 +24,7 @@ include::_about.adoc[]
 
 === Acme editor (example)
 
-Short description. link:+http://acme.com+[Acme editor]
+Short description. link:++http://acme.com++[Acme editor]
 
 ==== Porovnání rozdílů
 Contrast of the Acme editor, compared to Markup Editor.
@@ -172,7 +172,7 @@ Navíc k editaci dokumentů umožňuje správu celých knih, resp. používá me
 
 Na pozadí GitBook verzuje dokumenty pomocí gitu. Prohlížení změn dokumentu je tak pohled nad git commity.
 
-link:+https://www.gitbook.com/editor+[GitBook]
+link:++https://www.gitbook.com/editor++[GitBook]
 
 ==== Porovnání rozdílů
 
@@ -574,7 +574,7 @@ image::https://i.imgur.com/YzpaE45.png[]
 
 image:2/subl1.png[]
 
-===== UI po instalaci pluginu link:+https://github.com/revolunet/sublimetext-markdown-preview+[Markdown Preview]
+===== UI po instalaci pluginu link:++https://github.com/revolunet/sublimetext-markdown-preview++[Markdown Preview]
 * Plugin umožňuje ze zdrojového kódu vygenerovat preview a následně jej zobrazit například v browseru
 * Možnosti pluginu jsou snadno dostupné přes command pallete
 * Lze nakonfigurovat i jako live preview (při přepnutí do browseru se automaticky přegeneruje)
@@ -582,7 +582,7 @@ image:2/subl1.png[]
 image:2/subl2.png[]
 image:2/subl3.png[]
 
-===== UI po instalaci pluginu link:+https://github.com/math2001/MarkdownLivePreview+[MarkdownLivePreview]
+===== UI po instalaci pluginu link:++https://github.com/math2001/MarkdownLivePreview++[MarkdownLivePreview]
 * Plugin přidává podporu druhého okna, které zobrazuje live preview editovaného dokumentu
 * Podporuje pouze základní prvky jazyka Markdown (například neumí generovat tabulky)
 
@@ -607,7 +607,7 @@ image:2/subl5.png[]
 	** Po doinstalování pluginů je nutné buď přepínat do browseru (Markdown Preview), nebo neumí pokročílé prvky jazyka (MarkdownLivePreview)
 * Status bar
 	** Zobrazuje aktuální pozici kurzoru v souboru a typ souboru
-	** Široké možnosti link:+https://forum.sublimetext.com/t/statusbarcontrols-status-bar-customization/32145+[konfigurace]
+	** Široké možnosti link:++https://forum.sublimetext.com/t/statusbarcontrols-status-bar-customization/32145++[konfigurace]
 * Outline
 	** V základním UI nepodporuje outline dokumentu
 * Práce s tabulkami / obrázky / odkazy
