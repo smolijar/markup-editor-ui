@@ -74,3 +74,53 @@ Optional description
 
 
 == Hi-fi prototyp
+
+=== Implementované features
+
+==== Zobrazovací módy
+* [x] Zobrazení zdrojového kódu
+* [x] Zobrazení náhledu dokumentu
+* [x] Zobrazení zdrojového kódu a náhledu dokumentu ve dvou sloupcích vedle sebe
+* [x] Synchronizované scrollování ve dvousloupcovém módu
+* [x] Fulscreen mód
+* [x] Zobrazení čísel řádek ve zdrojovém kódu
+* [x] Zalamování textu
+* [x] Kontrola pravopisu ve zdrojovém kódu
+* [x] Sbalování/rozbalování bloků ve zdrojovém kódu
+
+==== Navigace
+* [x] Vyhledávání textu
+* [x] Skočit na řádek
+* [x] Zobrazení/skrytí struktury dokumentu (outline generovaná z nadpisu)
+* [x] Navigace pomocí struktury dokumentu (kliknutí na nadpis vyhledá řádek ve zdrojovém kódu)
+
+==== Editace
+* [x] Multicursor editace
+* [x] Copy & paste
+* [x] Běžné klávesové zkratky
+* [x] Autocomplete
+* [x] Autosave
+* [x] Přesunutí sekcí v outline
+
+==== Nastavení
+* [x] Přepínání zobrazovacího módu (zdroj, náhled, vedle sebe)
+* [x] Vypnutí/zapnutí zobrazení čísel řádků
+* [x] Vypnutí/zapnutí zalamování textu
+* [ ] Vypnutí/zapnutí kontroly pravopisu
+* [x] Vypnutí/zapnutí fulscreen módu 
+* [x] Vypnutí/zapnutí zobrazení outline
+* [ ] Nastavení živého náhledu (live, timeout, manual)
+
+
+Kontrola pravopisu je v současné době pouze pro Angličtinu a není možné ji vypnout/zapnout.
+Má ještě nějaké chyby (kontroluje bloky zdrojových kódů např.), ale již poskytuje rozhraní pro návrhy oprav.
+
+Živý náhled je zafixován s časovou prodlevou 300ms po skončení psaní.
+
+=== Implementace
+
+Implementováno jako komponenta React frameworku.
+Markup editor využívá editor zdrojového kódu link:http://codemirror.net/[CodeMirror].
+Zdrojové kódy jsou dostupné na link:https://github.com/grissius/markup-editor[GitHubu].
+
+Aplikace je pro testovací potřeby nasazena na link:https://lml-editor.herokuapp.com/markdown[Heroku].
