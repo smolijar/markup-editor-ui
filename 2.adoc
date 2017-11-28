@@ -291,6 +291,7 @@ Ace by bylo možno zvolit i jako základ pro textový editor markup-editoru.
 
 ===== Mínusy
 . Nutná značná investice do učení se API pro tvorbu vlastních rozšíření
+. Nutné přidat další funkcionalitu - outline, preview, atd.
 
 
 == Hi-fi prototyp
