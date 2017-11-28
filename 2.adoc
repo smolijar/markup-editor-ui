@@ -81,7 +81,7 @@ link:+https://typora.io+[https://typora.io]
 
 ==== Porovnání rozdílů
 * Jedná sa o desktopový editor, nie webovú komponentu. 
-* Podporuje iba jazyk markdown (github-flavored). 
+* Podporuje iba jazyk markdown (github-flavored). 
 * Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá klávesovú skratku. 
 * Podporuje zmenu vzhľadu pomocou css šablón.
 
@@ -124,7 +124,7 @@ image::https://i.imgur.com/NWJ2Mtz.png[]
   ** Alternatívou ku klávesovým skratkám je klasické menu, kde je užívateľ nutený siahnúť po myši
   ** klávesové skratky na styling dokumentu (nadpisy, odsadenie, tabulky, bloky kódu, citacie, zoznamy, foot notes, horizontal lines, bold, underline,..., vloženie obrázku) (neaktívne v source code mode)
 * Nepodporuje režim so zobrazeným zdrojákom a vyrenderovaným dokumentom vedľa seba
-  ** štandardne live rendering v tom istom okne (preview)
+  ** štandardne live rendering v tom istom okne (WYSIWYG)
   ** source code mod pridáva nadštandardný syntax highlighting zdrojaku (niečo ako vyrenderovaný dokument akurát je v ňom stále markdown)
 * Chýba statusbar
   ** Chýba informácia o pozícií kurzora v dokumente
@@ -176,8 +176,8 @@ image::https://i.imgur.com/1uSz1xM.png[]
 
 ==== Porovnání rozdílů
 
-* Jedná sa o webovú komponentu, ktorá ale nie je embedovateľná. 
-* Podporuje iba jazyk AsciiDoc.
+* Jedná sa o webovú komponentu, ktorá ale nie je embedovateľná. 
+* Podporuje iba jazyk AsciiDoc.
 * Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá potrebnú klávesovú skratku.
 * Podporuje zmenu vzhľadu pomocou css šablón.
 * Dokument je možné uložiť na Dropbox, Google Drive alebo na stiahnutie. 
@@ -188,7 +188,7 @@ image::https://i.imgur.com/O8bixCn.png[]
 
 * Okno editoru je rozdelené na dve časti
   ** zdrojový kód so zýraznenou syntaxou (len farebné rozlíšenie)
-  ** vyrenderovaný dokument (live rendering)
+  ** vyrenderovaný dokument (preview)
   ** možnosť zapnúť synchronizované scrollovanie v nastaveniach
 
 
@@ -210,7 +210,6 @@ image::https://i.imgur.com/YzpaE45.png[]
 * Nie je k dispozícií zoznam klávesových skratiek
 * Nie je možné prepínať režimy zobrazenia
   ** jediná možnosť je mať naľavo zdrojový kód a napravo vyrenderovaný dokument
-  ** Žiadny distraction free mod, pri fullscreene stále vidno prvky prehliadača
 * Chýba statusbar, informacia o počte slov je v záhlaví okna 
   ** Chýba informácia o pozícií kurzora v dokumente
 * Nemá outline
