@@ -73,14 +73,16 @@ Optional description
 . Minus B
 
 === LibreOffice Writer
-LibreOffice Writer je multiplatformový textový preprocesor z open-source kancelárského balíka LibreOffice.  
+LibreOffice Writer je multiplatformový textový preprocesor z open-source kancelárského balíka LibreOffice.
+
+Samozrejme sa nejedná o priamého konkurenta nami navrhovaného markup editoru, ale myslíme, že v tvorbe obsahovo orientovaných dokumentov majú kancelárske nátroje silné zastúpenie a je teda vhodné sa o nich zmieniť.
 
 link:+https://www.libreoffice.org/discover/writer/+[https://www.libreoffice.org/discover/writer/]
 
 ==== Porovnání rozdílů
 * Nejedná sa webovú komponentu, ale o desktopovú aplikáciu
 * Dokumenty nie je možné písať v LML (Lightweight Markup Language)
-* Zameraný na netechnických užívateľov, nezobrazuje čísla riadkov, nemá syntax highlighting
+* Zameraný na netechnických užívateľov, nezobrazuje čísla riadkov, nemá syntax highlighting snippetov zdrojového kódu
 * Ponúka široké možnosti pre prácu s dokumentami (šablóny, generovanie obsahu, práca so bibliografiou,...)
 * Viac možností štýlovania dokumentu (typ, farba, ľubovoľná veľkosť písma, farba zvýraznenia, line spacing, rôzne zarovnanie textu) 
 * Neobsahuje command palletu, všetka funkcionalita je umiestnená v toolbari a menu.
