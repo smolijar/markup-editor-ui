@@ -85,7 +85,7 @@ link:+https://www.gitbook.com/editor+[GitBook]
 ==== Porovnání rozdílů
 
 . GitBook je stand-alone produkt - jak desktopová, tak webová verze. Nelze jej tudíž embedovat do jiných stránek.
-. Neobsahuje command palette, místo toho má nástrojovou lištu pro vkládání základních markupových konstruktů.
+. Neobsahuje command palette, místo toho má markdown paletu pro vkládání základních markupových konstruktů.
 * GitBook umožňuje kód editovat nejen v source+preview módu, ale i jako WYSIWYG.
 . Obsahuje dialog pro vkládání obrázků, které lze načítat z lokální knihovny, disku, či vzdálené adresy
 
@@ -95,7 +95,7 @@ link:+https://www.gitbook.com/editor+[GitBook]
 
 image:/assets/zakladni-ui.png[]
 
-Základní UI zobrazuje ve své horní části nástrojové menu, konfiguraci verzí a markdown paletu.
+Základní UI zobrazuje ve své horní části toolbar, konfiguraci verzí a markdown paletu.
 Zbytek okna pak zabírá sidebar s obsahem (TOC) nebo adresářovou strukturou (FILES), a konečně editorem samotným.
 
 Ve výchozím módu je editor v módu WYSIWYG, tedy lze přímo psát do naformátovaného textu a využívat markup palety a klávesových zkratek.
@@ -175,7 +175,7 @@ Konceptuálně jsou si oba nástroje velmi podobné, i typické použítí je ve
   * editace markupu s preview; oboje možné nezávisle vypnout
   * zobrazení outline/table of contents
   * zobrazování rozdílu mezi verzemi
-  * nástrojová paleta
+  * toolbar
   * ovládání klávesovými zkratkami
 
 * Table Of Contents je vytvářena uživatelem a není spojená s kapitolami v markup dokumentu
