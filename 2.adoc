@@ -76,7 +76,7 @@ Optional description
 
 Desktopový (free) a online (placený) editor pro markupové dokumenty ve formátu GFM (GitHub Flavored Markdown) a AsciiDoc.
 
-Navíc k editaci dokumentů umožňuje správu celých knih. Resp. používá metaforu knihy na rozdělení projektu do kapitol, případně do souborů.
+Navíc k editaci dokumentů umožňuje správu celých knih, resp. používá metaforu knihy na rozdělení projektu do kapitol, případně do souborů.
 
 Na pozadí GitBook verzuje dokumenty pomocí gitu. Prohlížení změn dokumentu je tak pohled nad git commity.
 
@@ -96,7 +96,7 @@ link:+https://www.gitbook.com/editor+[GitBook]
 image:/assets/zakladni-ui.png[]
 
 Základní UI zobrazuje ve své horní části toolbar, konfiguraci verzí a markdown paletu.
-Zbytek okna pak zabírá sidebar s obsahem (TOC) nebo adresářovou strukturou (FILES), a konečně editorem samotným.
+Zbytek okna pak zabírá sidebar s obsahem (_TOC_) nebo adresářovou strukturou (_FILES_), a konečně editorem samotným.
 
 Ve výchozím módu je editor v módu WYSIWYG, tedy lze přímo psát do naformátovaného textu a využívat markup palety a klávesových zkratek.
 
@@ -130,7 +130,7 @@ Při kliknutí na ikonku Numbered list (v markup paletě), text pod kurzorem se 
 
 Pokud ale provedu to samé klikáním na položky Markup v horním menu, nebo použiji patřičných klávesových zkratek, pak místo odstranění/změny se seznam začne zanořovat do sebe.
 
-image:/assets/bullet-zanoreni.png
+image:/assets/bullet-zanoreni.png[]
 
 Další nepříjemnost je při odstraňování seznamu, kdy stisknutí backspace sice smaže jednu úroveň zanoření, ale kurzor v textu odskočí na předchozí řádek.
 
@@ -172,18 +172,19 @@ Při prohlížení verze souboru (_THIS FILE_) mi ale verzování zobrazuje hned
 
 Na rozdíl od markup-editoru se jedná o standalone produkt, nicméně sdílejí spolu značnou část funkcionality.
 Konceptuálně jsou si oba nástroje velmi podobné, i typické použítí je velmi podobné.
-  * editace markupu s preview; oboje možné nezávisle vypnout
-  * zobrazení outline/table of contents
-  * zobrazování rozdílu mezi verzemi
-  * toolbar
-  * ovládání klávesovými zkratkami
 
-* Table Of Contents je vytvářena uživatelem a není spojená s kapitolami v markup dokumentu
-* Chybí fuzzy příkazové okno pro ovládání nástroje
-* GitBook má nastavení a ovládání různě roztroušené po UI a menu.
-* Není žádná podpora pro tabulky v markup editoru, pouze ve WYSIWYGu pro Makrdown.
-* Okno pro vkládání obrazků je alespoň trochu použitelné.
+   * editace markupu s preview; oboje možné nezávisle vypnout
+   * zobrazení outline/table of contents
+   * zobrazování rozdílu mezi verzemi
+   * toolbar
+   * ovládání klávesovými zkratkami
 
+Nicméně nalezneme i rozdíly:
+
+   * Table Of Contents je vytvářena uživatelem a není spojená s kapitolami v markup dokumentu
+   * Chybí fuzzy příkazové okno pro ovládání nástroje
+   * GitBook má nastavení a ovládání různě roztroušené po UI a menu.
+   * Není žádná podpora pro tabulky v markup editoru, pouze ve WYSIWYGu pro Makrdown.
 
 ===== Chyby v markupu
 
@@ -195,7 +196,7 @@ Ač se v principu jedná o zajímavý nástroj, za kterým stojí i velký hrá�
 
 ===== Plusy
 
-. WYSIWYG editor - uživatelské možnosti jsou omezeny možnostmi markupu pod tím, takže se skutečně jedná o WYSIWYG a WYWIWYG (What You Want Is What You Get) zároveň
+. WYSIWYG editor - uživatelské možnosti jsou omezeny možnostmi markupu pod tím, takže se skutečně jedná o WYSIWYG a WYWIWYG footnote:[What You Want Is What You Get]  zároveň
 . Organizace dokumentů do formátu knihy
 . Automatické verzování gitem
 
@@ -227,7 +228,7 @@ Pro lepší porovnání na pár místech ukazuji i praktické nasazení Ace edit
 
 ===== Základní pohled
 
-Webová stránka Ace nabízí takzvanou "kuchyň" na které si uživatel může vyzkoušet různé základní vlastnosti:
+Webová stránka Ace nabízí takzvaný _kitchen sink_ na které si uživatel může vyzkoušet různé základní vlastnosti:
 
 image:/assets/ace-zakladni-ui.png[]
 
