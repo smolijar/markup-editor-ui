@@ -136,7 +136,7 @@ link:++https://www.gitbook.com/editor++[GitBook]
 
 ===== Základní pohled
 
-image:/assets/zakladni-ui.png[]
+image:assets/zakladni-ui.png[]
 
 Základní UI zobrazuje ve své horní části toolbar, konfiguraci verzí a markdown paletu.
 Zbytek okna pak zabírá sidebar s obsahem (_TOC_) nebo adresářovou strukturou (_FILES_), a konečně editorem samotným.
@@ -148,7 +148,7 @@ Ve výchozím módu je editor v módu WYSIWYG, tedy lze přímo psát do naform�
 Pro přímou editaci markupu musíme kliknout na nenápadný otazníček v pravém dolním rohu a zvolit _Edit Markdown_. Stejným způsobem se můžeme vrátit k WISIWYGu.
 Při editaci zdroje se hlavní část UI rozdělí na zdroj a preview (lze vypnout v konfiguraci).
 
-image:/assets/editace-markup.png[]
+image:assets/editace-markup.png[]
 
 Nutno podotknout, že mód WYSIWYGu je dostupný pouze pro Markdown, ačkoliv GitBook podporuje i AsciiDoc. AsciiDoc je vždy v módu editace zdroje.
 Preview okno je opravdu jenom preview, a nelze v něm editovat text. Toto považuji za škodu; když už GitBook podporuje WYSIWYG, bylo by zajímavé mít v jedné polovině editovatelný zdrojový kód, a v pravé polovině editovatelný WISIWYG.
@@ -173,7 +173,7 @@ Při kliknutí na ikonku Numbered list (v markup paletě), text pod kurzorem se 
 
 Pokud ale provedu to samé klikáním na položky Markup v horním menu, nebo použiji patřičných klávesových zkratek, pak místo odstranění/změny se seznam začne zanořovat do sebe.
 
-image:/assets/bullet-zanoreni.png[]
+image:assets/bullet-zanoreni.png[]
 
 Další nepříjemnost je při odstraňování seznamu, kdy stisknutí backspace sice smaže jednu úroveň zanoření, ale kurzor v textu odskočí na předchozí řádek.
 
@@ -187,13 +187,13 @@ Jako bonus z palety zmizí nadpisy H4-H6 (mimochodem pro WYSIWYG paleta obsahuje
 
 Celkové používání zkratek či palety v markup editoru je skoro až zbytečné, protože GitBook pouze tupě obalí označený text patřičnou syntaxí. Kombinace některých zkratek (např. bold + italic + bold) pak může vést k pomeřně nežádoucím výsledkům.
 
-image:/assets/not-so-bold.png[]
+image:assets/not-so-bold.png[]
 
 ===== Vkládání obrázků
 
 Vhodné bylo rozhrání pro vkládání obrázků. Při vkládání vzdálených obrázků uživatel vidí preview.
 
-image:/assets/insert-link-image.png[]
+image:assets/insert-link-image.png[]
 
 Při vkládání lokálních obrázků pak GitBook zkopíruje daný soubor do git repozitáře s editovanou knihou (dokumentem), což je velmi příjemná vlastnost.
 
@@ -203,11 +203,11 @@ Verzování dokumentů je poháněno gitem a GitBook umožňuje zobrazit rozdíl
 
 Je možno zobrazovat změny verzí jak pro celou knihu, tak i pro jednotlivé soubory.
 
-image:/assets/verze-knihy.png[]
+image:assets/verze-knihy.png[]
 
 V diffu výše je vidět, že zvolený způsob prokládání přidaného a odebraného obsahu není úplně vhodný pro text, neboť je těžké číst jak jednu, tak i druhou variantu.
 
-image:/assets/verze-souboru.png[alt=""]
+image:assets/verze-souboru.png[alt=""]
 
 Při prohlížení verze souboru (_THIS FILE_) mi ale verzování zobrazuje hned čtyři soubory. Toto je velmi matoucí a nepodařilo se mi dohledat co přesně tím autoři mysleli. Mimochodem na záložku _n COMMIT(S)_ nelze kliknout.
 
@@ -273,7 +273,7 @@ Pro lepší porovnání na pár místech ukazuji i praktické nasazení Ace edit
 
 Webová stránka Ace nabízí takzvaný _kitchen sink_ na které si uživatel může vyzkoušet různé základní vlastnosti:
 
-image:/assets/ace-zakladni-ui.png[]
+image:assets/ace-zakladni-ui.png[]
 
 Editor v základní podobě nabízí spoustu vlastností:
 
@@ -286,14 +286,14 @@ Editor v základní podobě nabízí spoustu vlastností:
 
 Rovněž umožňuje i barvení code snippetů uvnitř markup code bloků:
 
-image:/assets/ace-barveni-v-kodu.png[]
+image:assets/ace-barveni-v-kodu.png[]
 
 ===== Klávesové ovládání
 
 Editor sám o sobě nemá žádné klávesové zkratky pro vkládání syntaktických konstruktů, nicméně má velmi propracovanou klávesovou podporu pro editaci textu. Lze například nastavit mód _vim_, v kterém lze používat vim přikazy nejen pro navigaci (`3w`, `10j`, `67G`, …), ale i pro editaci textu (`dap`, `di{)`, `3yy`, `p`, …), což obzvlášť ocení náročnější uživatelé.
 Dokonce podporuje i některé ex příkazy jako například search & replace:
 
-image:/assets/ace-vim-ex.png[]
+image:assets/ace-vim-ex.png[]
 
 Ace umožňuje plně konfigurovat klásové zkratky pro běžný mód, i pro speciální módy jako je již zmíněný vim, či emacs.
 
@@ -301,13 +301,13 @@ Ace umožňuje plně konfigurovat klásové zkratky pro běžný mód, i pro spe
 
 Ace rovněž nabízí možnost zobrazování rozdílů v textu/mezi verzemi. Zde například editor použitý na webu GitHub v read-only módu zobrazující změny mězi dvěma verzemi souboru.
 
-image:/assets/ace-nahled-zmen.png[]
+image:assets/ace-nahled-zmen.png[]
 
 ===== Rozšiřování editoru
 
 Jednou ze silných stránek editoru je rozšířitelnost a tudíž i široká aplikovatelnost.
 
-image:/assets/ace-rstudio.png[]
+image:assets/ace-rstudio.png[]
 
 Na obrázku je Ace editor embedovaný do nástroje R Studio. Uvnitř editoru je každý `R` code blok obohacen o tlačítka ke konfiguraci či spuštění. Po spuštění uvedeného příkladu se přímo do editoru vloží vykreslený graf.
 
