@@ -294,5 +294,321 @@ Ace by bylo možno zvolit i jako základ pro textový editor markup-editoru.
 . Nutná značná investice do učení se API pro tvorbu vlastních rozšíření
 . Nutné přidat další funkcionalitu - outline, preview, atd.
 
+=== Typora
+
+Dekstopový (Windows, macOS, Linux) komerčný markdown-only (GitHub flavored) editor.
+Dokument je renderovaný v tom istom okne hneď počas písania.
+Pri pohybe kurzoru medzi jednotlivými blokmi sa vyrenderovaný blok rozpadne na zdrojový kód, ktorý je možné editovať.
+link:+https://typora.io+[https://typora.io]
+
+==== Porovnání rozdílů
+* Jedná sa o desktopový editor, nie webovú komponentu. 
+* Podporuje iba jazyk markdown (github-flavored). 
+* Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá klávesovú skratku. 
+* Podporuje zmenu vzhľadu pomocou css šablón.
+
+
+==== Zhodnocení UI
+
+===== Defaultné rozhranie so zobrazenou outline dokumentu:
+
+image::https://i.imgur.com/n3vyN3i.png[]
+
+Okno editora je rozdelené na 2 hlavné časti, v postrannom paneli naľavo je zobrazená outline dokumentu alebo súborová štruktúra.
+Vpravo je samotný dokument. Informácia o počte slov sa nachádza v title bare. Pod záhlavím okna sa nachádza panel s otvorenými tabmi. 
+
+
+===== Focus mode
+Celý dokument vybledne, zvýraznený je len aktívny blok
+
+image::https://i.imgur.com/u6NGu0Z.png[]
+
+===== typewriter mode
+Zaručí aby aktívny riadok bol vždy v strede editoru. 
+
+===== Source code mode
+Namiesto priamo live renderingu je stále zobrazený zdrojový kód, ktorý je zvýraznený nie len farebne, ale aj veľkosťou písma, odsadením (vlastne vyrenderovaný dokument, kde je miesto textu stále markdown).
+Pri zapnutí tohto módu nefunguje drag n drop na pridanie obrázku do dokumentu
+
+image::https://i.imgur.com/NWJ2Mtz.png[]
+
+===== Outline 
+* podporu zbalenia/rozbalenia je nutné zapnúť v nastaveniach
+* Pevná šírka 
+
+===== Iné
+* Podpora viacerých tabov
+* Chýbajú presety (napr. vim-like, emacs-like) klavesových skratiek 
+* Nápoveda je formou markdown dokumentu 
+
+==== Pozorování UI v kontextu markup-editor
+* Chýba command paleta
+  ** Alternatívou ku klávesovým skratkám je klasické menu, kde je užívateľ nutený siahnúť po myši
+  ** klávesové skratky na styling dokumentu (nadpisy, odsadenie, tabulky, bloky kódu, citacie, zoznamy, foot notes, horizontal lines, bold, underline,..., vloženie obrázku) (neaktívne v source code mode)
+* Nepodporuje režim so zobrazeným zdrojákom a vyrenderovaným dokumentom vedľa seba
+  ** štandardne live rendering v tom istom okne (WYSIWYG)
+  ** source code mod pridáva nadštandardný syntax highlighting zdrojaku (niečo ako vyrenderovaný dokument akurát je v ňom stále markdown)
+* Chýba statusbar
+  ** Chýba informácia o pozícií kurzora v dokumente
+  ** Auto-save na macOS v réžií systému, bez informácie o poslednom uložení
+* Outline 
+  ** chýba presúvanie kapitol potiahnutím nadpisu v outline
+* Práca sa tabuľkami
+  ** UI dialog pre vloženie tabuľky (počet riadkov, sĺpcov)
+  ** Tabuľka je hneď vyrenderovaná a do buniek je možné vpisovať hodnoty
+  ** Malý toolbar pre výber zarovnania textu v bunkách tabuľky a pohodlný resize (zmena počtu buniek)
+
+image::https://i.imgur.com/1uSz1xM.png[]
+
+* Vkladanie obrázkov
+  ** cez menu (otvorí sa nativny dialog), klávesovou skratkou (snippet) alebo drag&drop
+  ** možnosť automatického uploadu obrázku na server (nutné nainštalovať ďalšiu aplikáciu)
+
+#### Zajímavé features
+
+* Syntax highlighting kódu, ktorý napríklad používa proporcionálnu veľkosť písma, odsadenie pri nadpisoch. Kód je tým pádom prehľadnejší.
+* Generovanie Table of Contents v dokumente
+* Themes
+  ** Na výber z niekoľkých tém, ktoré menia vzhľad ako aj vyrenderovaného dokumentu tak aj zdrojového kódu
+* Export do PDF, docx, odt, LaTeX, MediaWiki, Epub
+
+==== Shrnutí
+
+===== Plusy
+* Možnosť zmeny vzhľadu
+* live rendering šetrí miesto
+* prijemná práca s tabuľkami
+* vkladanie obrázkov drag&drop
+* podpora viacerých tabov
+
+===== Mínusy
+* Málo možnosti konfigurácie
+* Spellchecker nepodtrháva nesprávne slovo (oprava chýb v dialogovom okne)
+* Ak užívateľ nepozná klávesové skratky je nutné siahnuť po myši (chýba command palleta)
+* Komerčný editor
+* Nemožnosť nastaviť otvárenie nového tabu namiesto okna
+* Linky klikateľné len na texte, nie na celom riadku outline.
+* Defaultne nie je priradená klávesová skratka na otvorenie nového tabu s dokumentom (štandardne cmd+t)
+
+
+=== AsciiDocLIVE
+
+* https://asciidoclive.com
+* online open-source asciiDoc-only editor
+
+==== Porovnání rozdílů
+
+* Jedná sa o webovú komponentu, ktorá ale nie je embedovateľná. 
+* Podporuje iba jazyk AsciiDoc.
+* Kvôli chýbajúcej command pallete vyžaduje používanie myši ak si užívateľ nepamätá potrebnú klávesovú skratku.
+* Podporuje zmenu vzhľadu pomocou css šablón.
+* Dokument je možné uložiť na Dropbox, Google Drive alebo na stiahnutie. 
+
+==== Zhodnocení UI
+
+image::https://i.imgur.com/O8bixCn.png[]
+
+* Okno editoru je rozdelené na dve časti
+  ** zdrojový kód so zýraznenou syntaxou (len farebné rozlíšenie)
+  ** vyrenderovaný dokument (preview)
+  ** možnosť zapnúť synchronizované scrollovanie v nastaveniach
+
+
+* Klavesové skratky
+  ** možnosť vybrať z 3 presetov (default, vim, emacs)
+
+
+==== Pozorování UI v kontextu markup-editor
+
+* Má Toolbar(menu) v hornej časti
+  ** Otvorenie dokumentu (z Dropboxu, Google Drive, filesystem) alebo vytvorenie nového dokumentu
+  ** Uloženie dokumentu na Google Drive, Dropbox alebo stiahnutie
+  ** Nastavenia (sync scrollovanie, autosave, zmena šablóny, písma, presety klav. skratiek)
+  ** FAQ, About, AsciiDoc cheatsheet
+
+image::https://i.imgur.com/YzpaE45.png[]
+
+* Chýba command paleta
+* Nie je k dispozícií zoznam klávesových skratiek
+* Nie je možné prepínať režimy zobrazenia
+  ** jediná možnosť je mať naľavo zdrojový kód a napravo vyrenderovaný dokument
+* Chýba statusbar, informacia o počte slov je v záhlaví okna 
+  ** Chýba informácia o pozícií kurzora v dokumente
+* Nemá outline
+* Práca sa tabuľkami a obrázkami len na úrovni zdrojového kódu
+
+==== Zajímavé features
+
+* Themes
+  ** Na výber z niekoľkých tém, ktoré menia zvýraznenie zdrojového kódu
+  ** možnosť editovať šablónu
+
+==== Shrnutí
+
+===== Plusy
+
+- Jednoduchý
+- Podpora AsciiDoc, ktorý často v editoroch chýba
+- Open-source
+- Upozorní pred zatvorením stránky a teda stratou dokumentu
+- Funguje aj pri strate konektivity
+
+===== Mínusy
+
+- Príliš jednoduchý
+- Takmer žiadne možnosti konfigurácie
+- Chýbajúca nápoveda ku klavesovým skratkám
+- Nefunkčný auto-save footnote:[Funkcionalita auto-save počas testovania nevykazovala žiadne známky spojiteľné s jej funkčnosťou.]
+- Užívateľ nikde nezistí aké konkrétne klavesové skratky je možné používať
+
+
+=== Sublime Text
+
+* Multiplatformní desktopový editor textových souborů a zdrojových kódů s vysokou mírou přizpůsobení prostřednictvím pluginů vyvíjených komunitou
+* link:+https://www.sublimetext.com/+[https://www.sublimetext.com/]
+
+==== Porovnání rozdílů
+* Nejedná se o webovou komponentu, ale o desktopovou aplikaci
+* Univerzální editor, není omezený pouze na editaci LML (Lightweight Markup Language)
+* Defaultně neumí zobrazovat preview dokumentu ani jeho outline (možnost doinstalovat pluginy)
+* Obsahuje propracovanou command pallete, přes kterou lze obsluhovat téměř všechna nastavení
+
+==== Zhodnocení UI
+
+===== Základní UI po instalaci
+* Podpora pro více tabů
+* Zobrazený je pouze zdrojový kód s podporou zvýrazňování syntaxe (detekuje na základě přípony .md / .adoc / ...)
+* NOTE: Protože Sublime Text je generický editor a použitelný jako LML editor pouze prostřednictvím pluginů, rozhodl jsem se dále prozkoumat pouze jazyk Markdown.
+
+image:2/subl1.png[]
+
+===== UI po instalaci pluginu link:+https://github.com/revolunet/sublimetext-markdown-preview+[Markdown Preview]
+* Plugin umožňuje ze zdrojového kódu vygenerovat preview a následně jej zobrazit například v browseru
+* Možnosti pluginu jsou snadno dostupné přes command pallete
+* Lze nakonfigurovat i jako live preview (při přepnutí do browseru se automaticky přegeneruje)
+
+image:2/subl2.png[]
+image:2/subl3.png[]
+
+===== UI po instalaci pluginu link:+https://github.com/math2001/MarkdownLivePreview+[MarkdownLivePreview]
+* Plugin přidává podporu druhého okna, které zobrazuje live preview editovaného dokumentu
+* Podporuje pouze základní prvky jazyka Markdown (například neumí generovat tabulky)
+
+image:2/subl4.png[]
+
+===== UI editace uživatelských preferencí
+* Po zvolení editace preferencí (z menubaru nebo přes command pallete) se zobrazí nové okno
+* Vlevo jsou defaultní hodnoty editoru, vpravo je možné definovat vlastní hodnoty
+* Slouží převážně pro počáteční nastavení editoru, často používaná nastavení jsou dostupná přímo přes command pallete 
+
+image:2/subl5.png[]
+
+==== Pozorování UI v kontextu markup-editor
+* Toolbar
+	** V základním UI žádný toolbar není
+	** Všechny možnosti jsou dostupné přes klávesové zkrátky nebo command pallete
+* Command Pallete
+	** Velmi dobře zpracovaná po UI/UX stránce (například zobrazuje relevantní možnosti podle přípony souboru atd)
+	** Po doinstalování pluginů jsou i možnosti těchto pluginů dostupné přes command pallete
+* Preview mód
+	** V základním UI žádný preview mód není
+	** Po doinstalování pluginů je nutné buď přepínat do browseru (Markdown Preview), nebo neumí pokročílé prvky jazyka (MarkdownLivePreview)
+* Status bar
+	** Zobrazuje aktuální pozici kurzoru v souboru a typ souboru
+	** Široké možnosti link:+https://forum.sublimetext.com/t/statusbarcontrols-status-bar-customization/32145+[konfigurace]
+* Outline
+	** V základním UI nepodporuje outline dokumentu
+* Práce s tabulkami / obrázky / odkazy
+	** V základním UI neobsahuje žádné rozhraní
+
+==== Zajímavé features
+* Velké množství kvalitních pluginů
+* Možnost nastavení autosave na focus lost (přepnutí do jiné aplikace)
+
+==== Shrnutí
+
+===== Plusy
+* Pluginy
+* Command Pallete
+* Univerzální editor (lze použít i na jinou práci)
+
+===== Mínusy
+* Bez pluginů neumí preview
+* Nemá rozhraní pro vkládání tabulek (v rámci rešerše nebyl nalezen žádný plugin)
+* Neumí exportovat do jiných formátů (opět nutný plugin nebo jiný program)
+* Nevhodné pro méně počítačově gramotné uživatele
+
+
+=== SimpleMDE
+
+* Embedovatelný opensource editor jazyka Markdown implementovaný v JavaScriptu
+* link:+https://simplemde.com/+[https://simplemde.com/]
+
+==== Porovnání rozdílů
+* Jedná se o embedovatelnou webovou komponentu, není vhodný pro použití jako standalone editor
+* Podporuje základní zobrazovací módy (kód / preview / side by side) + fullscreen mód.
+* Nemá command pallete, ovládání pouze prostřednictvím toolbaru nebo klávesových zkratek
+* Neumí zobrazovat outline dokumentu
+
+==== Zhodnocení UI
+
+===== UI zdrojový kód
+* Zobrazuje zdrojový kód dokumentu se zvýrazněnou syntaxí (barevně i velikostně)
+* Odlišování syntaxe velikostně může být rušivé pro zkušené uživatele
+
+image:2/mde1.png[]
+
+===== UI preview
+* Zobrazuje preview vygenerované ze zdrojového kódu
+* Přepnutí prostřednictvím toolbaru nebo klávesové zkratky
+
+image:2/mde2.png[]
+
+===== UI side by side
+* V levém okně zobrazuje zdrojový kód, v pravém okně generované live preview
+* Automatická synchronizace scrollování
+* Dostupný pouze ve fullscreen módu
+
+image:2/mde3.png[]
+
+==== Pozorování UI v kontextu markup-editor
+* Toolbar
+	** Obsahuje pouze základní prvky jazyka Markdown (například neumí generovat tabulky)
+	** Všechny možnosti z toolbaru jsou dostupné i přes klávesové zkratky
+* Command Pallete
+	** Editor neobsahuje command pallete
+	** Všechna nastavení jsou dostupná přes toolbar nebo klávesové zkratky
+* Preview mód
+	** Možnost přepínaní mezi zdrojovým kódem a preview, nebo zapnutí side by side módu
+	** U všech zobrazení možnost zapnout fullscreen mód
+* Status bar
+	** Zobrazuje aktuální pozici kurzoru v souboru a počet řádků/slov
+* Outline
+	** Editor nepodporuje outline dokumentu
+* Práce s tabulkami / obrázky / odkazy
+	** V toolbaru je možnost vložit obrázek nebo odkaz
+	** Vloží pouze předpis syntaxe daného prvku
+	** Obrázky není možné přímo uploadovat (pouze vložit odkazem)
+
+==== Zajímavé features
+* Autosave a Spellcheck
+* Při embedování možnost konfigurace klávesových zkratek
+* Při embedování možnost přeskupení možností v toolbaru
+
+==== Shrnutí
+
+===== Plusy
+* Podpora všech základních zobrazovacích módů
+* Snadno embedovatelný (instalace přes npm)
+* Možnosti vlastní konfigurace při embedování
+* Vhodný i pro méně zkušené uživatele
+
+===== Mínusy
+* Neobsahuje command pallete
+* Žádné rozhraní pro vkládání tabulek / upload obrázků
+* Side by side mód je dostupný pouze ve fullscreen módu
+
+
+
 
 == Hi-fi prototyp
