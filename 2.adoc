@@ -82,10 +82,6 @@ Na pozadí GitBook verzuje dokumenty pomocí gitu. Prohlížení změn dokumentu
 
 link:+https://www.gitbook.com/editor+[GitBook]
 
-==
-
-Klikání do preview neodscrolluje markup zdroj do správné pozice, což může být nepříjemné obzvláště u delších dokumentů.
-
 ==== Porovnání rozdílů
 
 . GitBook je stand-alone produkt - jak desktopová, tak webová verze. Nelze jej tudíž embedovat do jiných stránek.
