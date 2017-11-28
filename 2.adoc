@@ -162,6 +162,6 @@ image:2/writer-table.png[]
 ===== Mínusy
 * Relatívne pomalý štart programu
 * Uživateľsky neprivetivé zatváranie panelov
-* Nie je možné vkladať obrázku/audia/videa z URL, iba z filesystemu
+* V dialogu na vkladanie obrázku chýba možnosť vložiť URL (workaround cez copy/paste, drag&drop)
 
 == Hi-fi prototyp
