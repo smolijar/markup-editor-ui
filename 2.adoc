@@ -72,6 +72,98 @@ Optional description
 . Minus A
 . Minus B
 
+=== LibreOffice Writer
+LibreOffice Writer je multiplatformový textový preprocesor z open-source kancelárského balíka LibreOffice.
+
+Samozrejme sa nejedná o priamého konkurenta nami navrhovaného markup editoru, ale myslíme, že v tvorbe obsahovo orientovaných dokumentov majú kancelárske nátroje silné zastúpenie a je teda vhodné sa o nich zmieniť.
+
+link:+https://www.libreoffice.org/discover/writer/+[https://www.libreoffice.org/discover/writer/]
+
+==== Porovnání rozdílů
+* Nejedná sa webovú komponentu, ale o desktopovú aplikáciu
+* Dokumenty nie je možné písať v LML (Lightweight Markup Language)
+* Zameraný na netechnických užívateľov, nezobrazuje čísla riadkov, nemá syntax highlighting snippetov zdrojového kódu
+* Ponúka široké možnosti pre prácu s dokumentami (šablóny, generovanie obsahu, práca so bibliografiou,...)
+* Viac možností štýlovania dokumentu (typ, farba, ľubovoľná veľkosť písma, farba zvýraznenia, line spacing, rôzne zarovnanie textu) 
+* Neobsahuje command palletu, všetka funkcionalita je umiestnená v toolbaroch a menu.
+* Nemá klasickú outline, funkcionalitu zastupuje panel _Navigator_ 
+* Obsahuje dialogy pre vkladanie tabuliek, obrázkov, grafov, audia, videa
+* Podpora doplnkov
+
+==== Zhodnocení UI
+
+===== Základní UI po instalaci
+* Jedno okno s toolbarmi v hornej časti
+* Postranný panel, do ktorého je možné pridávať ďalšie nástroje
+* V dolnej časti okna je umiestnený  statusbar
+
+image:2/writer-zakladne-ui.png[]
+
+===== Sidebar
+* UI s aktívnym sidebarom s nástrojmi na formatovanie textu a nástrojom _Navigator_ 
+
+image:2/writer-sidebar.png[]
+
+===== Režim zobrazenia multipage
+* Podporuje zobrazenie stránok dokumentu vedľa seba, počet takto zobrazených stránok sa mení automaticky v závislosti od veľkosti okna a úrovne zoomu
+
+image:2/writer-multipage.png[]
+
+===== Nastavenia
+* Okno s nastaveniami je možné vyvolať cez menu alebo klávesovú skratku
+* Nasavenia sú rozdelené do hierarchickej štruktúry
+
+image:2/writer-settings.png[]
+
+
+==== Pozorování UI v kontextu markup-editor
+
+* Toolbar
+** Zahŕňa veľké množstvo funkcionality priamo súvisiacej s formatovaním textu (buttony pre bold, italic, underline, horný/dolný index, farba, zvýraznenie textu, zarovnanie textu, vloženie obrázkov,...)
+
+* Statusbar
+** V dolnej časti okna je statusbar s informáciou o počte strán, slov, znakov, zvolenom štýle, jazyku slovníka, indikáciou neuložených zmien v dokumente, zvoleným režimom zobrazenia a zoom levelom
+
+* Práca s tabuľkami/obrázkami...
+** Pri vkladaní obrázku/audia/videa sa zobrazí natívny dialog pre výber súboru
+** Vloženie grafu priamo vloží ukažkový graf, ktorý je následne možné upraviť (zmeniť typ grafu, zdrojové data)
+** Vkladanie tvarov (trojuholníky, šípky, bubliny...) kliknutím a ťahaním (pre zvolenie požadovanej veľkosti útvaru)
+** Pri tabuľkách možnosť zvoliť jej veľkosť a základne nastavenia v dialogovom okne
+
+image:2/writer-table.png[]
+
+* Outline
+** Funkcionalita zastupená panelom _Navigator_ v ktorom je možné prechádzať hierachickú štruktúru dokumentu
+** Po kliknutí na prvok v hierarchii sa dokument odscrolluje na potrebnú pozíciu.
+
+* Command Pallete
+** Neobsahuje
+** Ovladanie myšou výberom funkcie z toolbaru/menu alebo klávesovými skratkami 
+
+
+==== Zajímavé features
+* Vkladanie grafov, videa, audia
+* Programovateľné makra
+* Preusporiadanie/presúvanie toolbarov/panelov
+* Práca s bibliografiou
+* Vkladanie matematických výrazov vyklikávanim v editore
+* Nastavenie hlavičky, patičky stránok
+* Prepracovaný spellchecker
+
+==== Shrnutí
+
+===== Plusy
+* Vhodný aj pre netechnických užívateľov
+* Tvorba komplexných dokumentov
+* Množstvo pluginov
+* Export dokumentu do množstva formátov (odt, doc, docx, pdf, rtf, ott, html) 
+* Prepojenie s ďalšími nástrojmi z LibreOffice balíka
+
+===== Mínusy
+* Relatívne pomalý štart programu
+* Uživateľsky neprivetivé zatváranie panelov
+* V dialogu na vkladanie obrázku chýba možnosť vložiť URL (workaround cez copy/paste, drag&drop)
+
 === GitBook
 
 Desktopový (free) a online (placený) editor pro markupové dokumenty ve formátu GFM (GitHub Flavored Markdown) a AsciiDoc.
@@ -607,8 +699,6 @@ image:2/mde3.png[]
 * Neobsahuje command pallete
 * Žádné rozhraní pro vkládání tabulek / upload obrázků
 * Side by side mód je dostupný pouze ve fullscreen módu
-
-
 
 
 == Hi-fi prototyp
