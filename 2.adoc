@@ -287,7 +287,7 @@ Ace by bylo možno zvolit i jako základ pro textový editor markup-editoru.
 . Bohatá rozšířitelnost se spoustou pluginů
 . I v základní podobě velmi silný textový editor
 . Možnost zobrazovat rich content (např. obrázky) přímo v editoru
-. vim mód :)
+. vim mód
 
 ===== Mínusy
 . Nutná značná investice do učení se API pro tvorbu vlastních rozšíření
