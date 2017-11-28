@@ -9,16 +9,16 @@ include::_about.adoc[]
 === Autoři
  *Šmolík Jaroslav* (vedoucí týmu)::
     * mailto:smolijar@fit.cvut.cz[]
-    * TODO co delal
+    * Prototyp, návrh osnovy rešerší, sekce implementace, review všech rešerší
  Uhnák Peter::
     * mailto:uhnakpet@fit.cvut.cz[]
-    * TODO co delal
+    * Rešerše (GitBook, Ace), review všech rešerší
  Špak Maroš::
     * mailto:spakmaro@fit.cvut.cz[]
-    * TODO co delal
+    * Rešerše (Typora, AsciidocLive, LibreOffice Writer)
  Chmelař Petr::
     * mailto:chmelpe7@fit.cvut.cz[]
-    * TODO co delal
+    * Rešerše (SublimeText, SimpleMDE), review rešerší GitBook, Ace
 
 == Rešerše konkurence
 
