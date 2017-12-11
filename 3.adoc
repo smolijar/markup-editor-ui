@@ -1,0 +1,159 @@
+= Markup editor: Testování
+Šmolík Jaroslav, Uhnák Peter, Špak Maroš, Chmelař Petr
+Semestrální projekt MI-NUR
+:icons: font
+:toc:
+
+include::_about.adoc[]
+
+=== Autoři
+ *Šmolík Jaroslav* (vedoucí týmu)::
+    * mailto:smolijar@fit.cvut.cz[]
+    * XYZ
+ Uhnák Peter::
+    * mailto:uhnakpet@fit.cvut.cz[]
+    * XYZ
+ Špak Maroš::
+    * mailto:spakmaro@fit.cvut.cz[]
+    * XYZ
+ Chmelař Petr::
+    * mailto:chmelpe7@fit.cvut.cz[]
+    * XYZ
+
+== Heuristická analýza
+
+=== Analýza #1
+
+=== Analýza #2
+
+=== Vyhodnocení
+
+== Usability testování
+
+=== Scénáře testování
+
+. Napsat si neco v markdownu
+. Presunuti sekce v outline
+. Vyhledavani v textu zdrojaku
+. Prepinani mezi fullscreen, preview, editor, editor+preview
+
+=== Testování #1
+
+==== Informace o testerovi
+
+==== Postřehy před testováním
+
+==== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+==== Pozitiva
+
+==== Negativa
+
+=== Testování #2
+
+==== Informace o testerovi
+
+==== Postřehy před testováním
+
+==== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+==== Pozitiva
+
+==== Negativa
+
+=== Testování #3
+
+==== Informace o testerovi
+
+==== Postřehy před testováním
+
+==== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+==== Pozitiva
+
+==== Negativa
+
+=== Testování #4
+
+==== Informace o testerovi
+
+==== Postřehy před testováním
+
+==== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+==== Pozitiva
+
+==== Negativa
+
+=== Testování #5
+
+==== Informace o testerovi
+
+==== Postřehy před testováním
+
+==== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+==== Pozitiva
+
+==== Negativa
+
+=== Testování #6
+
+==== Informace o testerovi
+
+==== Postřehy před testováním
+
+==== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+==== Pozitiva
+
+==== Negativa
+
+=== Testování #7
+
+==== Informace o testerovi
+
+==== Postřehy před testováním
+
+==== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+==== Pozitiva
+
+==== Negativa
+
+=== Vyhodnocení
