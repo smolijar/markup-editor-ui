@@ -3,14 +3,20 @@
 ===== Informace o testerovi
 
 ===== Postřehy před testováním
+// TODO my observation (something interesting about subject etc.)
+// TODO subject attitude, first impression, any interesting thought comments
 
 ===== Testování dle scénářů
+// TODO if nothing out of the ordinary, one simple short sentence for each task
+// elaborate everything interesting (subject struggles to finish task, they behave unexpectidly, search for controls, mumbles something etc.)
+// Try to spot at least two interesting things when testing
 
-. Popis testování dle scénáře 1
-. Popis testování dle scénáře 2
-. Popis testování dle scénáře 3
-. Popis testování dle scénáře 4
+===== Shrnutí testování
+//  TODO ask subject about problematic/interesting parts
+//  ask for suggestions to improve expirience.
 
-===== Pozitiva
+// TODO ask about favourite/hated aspects of the editor
+// (useless if not specific, propt the subject if needed to)
 
-===== Negativa
+//  TODO write short summary (3 senteces or few bullets) how to improve the editor,
+//  or which features are favorite (and should not be removed, or could be further expanded)
