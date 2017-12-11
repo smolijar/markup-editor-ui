@@ -131,3 +131,13 @@ include::3/chmelpe7_1.adoc[]
 include::3/chmelpe7_2.adoc[]
 
 === Vyhodnocení
+
+Na základě heuristické analýzi a testování jsme stručně popsali změny, které by se měli v editoru implementovat.
+Některé z nich jsou již hotové, ostatní jsou pouze zaznamenány v issue trackeru.
+
+* [ ] Atributy title u ovládacích prvků
+* [x] Vizuálně odlišit Command Palette tlačítko
+* [x] Zobraz pouze čas u autosave (ne datum)
+* [ ] Help (stručný manuál/tutoriál)
+* [x] Schovány _handles_ v outline pro přesouvání sekcí.
+* [x] _Handles_ přesunuty doprava.
