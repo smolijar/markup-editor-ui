@@ -1,0 +1,16 @@
+==== Testování #1
+
+===== Informace o testerovi
+
+===== Postřehy před testováním
+
+===== Testování dle scénářů
+
+. Popis testování dle scénáře 1
+. Popis testování dle scénáře 2
+. Popis testování dle scénáře 3
+. Popis testování dle scénáře 4
+
+===== Pozitiva
+
+===== Negativa
