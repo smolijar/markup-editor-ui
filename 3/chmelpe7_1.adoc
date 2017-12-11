@@ -1,0 +1,25 @@
+==== Testování #6 - Jan Kusý
+
+===== Informace o testerovi
+
+- 25 let
+- Absolvent FIT ČVUT
+- Programátor
+- link:+https://youtu.be/NrujC-uCbyw/+[YouTube video]
+
+===== Postřehy před testováním
+- Používá markdown jazyk pro psaní dokumentace k projektům
+- Pro editaci souborů v markdown jazyce používá Sublime Text
+- Před testováním správně identifikoval, že se pravděpodobně jedná o editor textu pro LML jazyky. 
+
+===== Testování dle scénářů
+. Uživatel běžně používá Markdown jazyk, neměl tedy žádný problém se základním formátováním.
+. Uživatel se opakovaně pokoušel přesunout podsekci z jedné sekce do jiné sekce, bylo nutné jej seznámit s faktem, že tato funkce není podporována.
+. Po napsání vyhledávané fráze si uživatel stěžoval na nemožnost posunout se na možnost All prostřednictvím (dle jeho názoru) standardní klávesy Tab. Na stejnou věc si stěžoval i u funkce Replace, klávesa Tab zde přepíná mezi inputy Find a Replace, nelze ale zvolit možnost All. Požadovanou akci nakonec zvolil prostřednictvím kurzoru myši. Následně uživatel zkoušel funkčnost klávesových zkratek pro krok zpět / vpřed. Zde občas docházelo k podivnému scrollování a selektování textu, uživatel pochopil že se jedná o chybu.
+. Uživatel správně předpokládal, že přepínání módů bude v command pallete a vyvolal ji prostřednictvím klávesové zkratky. Pro zvolení možnosti v command pallete využíval šipek na klávesnici i rychlé volby napsáním prvních písmen možnosti. Při přepnutí do preview módu ve fullscreenu došlo k situaci, kdy již nebylo možné vyvolat command palletu klávesovou zkratkou. Uživatel si s chybou poradil vypnutím fullscreenu a následným spuštěním command pallete tlačítkem v bottom baru.
+
+===== Shrnutí testování
+- Uživatel ocenil propracované zpracování (command pallete, klávesové zkratky). Dle jeho názoru je to u webových editorů nezvyklé.
+- Přesouvání podsekcí mezi nadřazenými sekcemi by zlepšilo použitelnost editoru při uprávách struktury editovaného dokumentu.
+- U funkce vyhledávání by uživatel uvítal větší míru interakce prostřednictvím klávesnice.
+- Při přepnutí do preview módu ve fullscreenu dochází k chybě kdy již není možné vyvolat command pallete klávesovou zkratkou.
