@@ -60,7 +60,9 @@ Při spuštění fullscreen módu je možné kromě příkazu opustit zobrazení
 
 * Tlačítko Command palette v statusbaru není vizuálně odlišné od neinteraktivních prvků (pozice kurzoru apod.)
 díky tomu nemusí být zřejmé že se jedná o tlačítko
-* Nekomplexní UI editoru nedává příliš prostor prohreškům vůči vnitřní konzistenci,
+* Nekomplexní UI editoru nedává příliš prostor prohreškům vůči vnitřní konzistenci.
+* Příkazy v paletě je monžé vybrat pouze pomocí klávesnice a nereagují na myš.
+Pokud uživatel může otevřít paletu myší, očekává, že se může i myší navigovat.
 
 === Error prevention
 > Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.
@@ -236,3 +238,4 @@ Některé z nich jsou již hotové, ostatní jsou pouze zaznamenány v issue tra
 * [ ] Help (stručný manuál/tutoriál)
 * [x] Schovány _handles_ v outline pro přesouvání sekcí.
 * [x] _Handles_ přesunuty doprava.
+* [x] Command pallete je ovladatelná myší.
