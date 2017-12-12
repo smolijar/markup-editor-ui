@@ -113,11 +113,106 @@ TODO summary, suggested/implemented fixes
 
 === Scénáře testování
 
-. Napsat si neco v markdownu
-. Presunuti sekce v outline
-. Vyhledavani v textu zdrojaku
-. Prepinani mezi fullscreen, preview, editor, editor+preview
+==== Základní manipulace s textem
 
+Počáteční stav::
+Výchozí zobrazení editoru se zdrojovým kódem, outline a preview
+Koncový stav::
+Výchozí zobrazení editoru s modifikovaným iniciálním obsahem
+
+. *Zorientujte se v obsahu dokumentu*
++
+Je testerovi zřejmé, k čemu jsou jednotlivé sloupečky?
+Pochopil, že se jedná o zdrojový kód a jeho náhled?
+Všiml si outline a pochopil, že je tato generována z nadpisů v markupu?
++
+_Pokud máte pochybnosti, doptejte se._
++
+_Tester by měl využít skrolování k prohlédnutí dokumentu, resp.
+případně využít outline pro vytvoření konceptuální představy o struktuře dokumentu._
+
+. *Najděte si libovolný odstavec v dokumentu a připiště nakonec nějakou větu*
++
+_Při testování případně tester napoví konkrétní větu, aby nebyl subjekt v rozpacích, že na textu nějakým způsobem záleží a necítil zodpovědnost._
++
+Nenarazil tester na nějaké potíže? (například ztráta focusu v editoru zdrojového kódu apod.)
++
+Všiml si tester změny v náhledu? Přišla mu rychlost odezvy adekvátní? (nebyl například zklamaný, že se nejdená o live vykreslení, apod.)
+
+. *Vyberte slovo z Vaší věty a použijte tučné písmo pro jedno slovo z této věty*
++
+_Pokud si tester nemůže vzpomenout na markdown syntax, napovězte mu (například `**bold**`)_
++
+Tester by měl pochopit, že je nutné využít syntaktického zápisu v kódu, nikoli klikacího formátování jako je zvykem v WYSIWYG.
+
+. *Prohlédněte si editor. Co myslíte že se stane při obnovení stránky? Až budete mít rozmyšleno, vyzkoušejte.*
++
+Při obnovení stránky dojde k nahrání uloženého obsahu z automatického uložení a změny budou zachovány.
++
+Tento krok testuje, zda si uživatel všimne informace o posledním uložení ve statusbaru a zda pochopí, k čemu tato funkce je.
+
+==== Přesouvání sekcí
+Počáteční stav::
+Výchozí zobrazení editoru s úpravami z předchozího scénáře
+Koncový stav::
+Výchozí zobrazení editoru s přesunutou zvolenou sekcí
+
+. *Prohlédněte si nadpisovou strukturu dokumentu*
++
+Pokud se tester s levým sloupcem do teď neseznámil, nechte mu chvíli času.
+
+. *Přesuňte skeci X před sekci Y.*
++
+_Vyberte konkrétní sekce v dokumentu. Pro přesun zvolte sekci, která má o podsekce._
++
+Tester by si měl všimnout drag handles v outline a ty využít.
++
+Pokud tester zvolí přístup s kopírovaním vlastního zdrojového textu, ukažte mu tento mechanismus, ať si ho také vyzkouší.
++
+Je tester spokojený s výsledkem? Zachoval se editor dle očekávání?
+
+==== Vyhledávání
+Počáteční stav::
+Výchozí zobrazení editoru s úpravami z předchozího scénáře
+Koncový stav::
+Výchozí zobrazení editoru se zvýrazněným zvoleným slovem
+
+. *Najděte v textu slovo X a nastevte jeho první jeho výskyt na kurzývu.*
++
+Tetser by měl využít klávesové zkratky `Ctrl+F` pro nalezení výskytu.
+Pokud bude vypadat, že tuto zkratku nezná, poraďte mu.
+
+. *Najděte v dokumentu sekci X*
++
+Očekává se, že tester najde tuto sekci v outline a klikne na nadpis, což najde tuto sekci v zdrojovém kódu.
++
+Pokud tester využije funkci vyhledávání, nechte jej dokončit.
+Poté mu vysvětlete funkci outline a nechte ho si ji vyzkoušet.
+
+==== Přepínání zobrazovacích režimů
+Počáteční stav::
+Výchozí zobrazení editoru s úpravami z předchozího scénáře
+Koncový stav::
+Editor se skrytým náhledem a outline (okno editoru zabírá pouze zdrojový kód)
+
+. *Chcete nyní zobrazit pouze editor, abyste se mohl soustředit na psaní. Skryjte náhled a outline.*
++
+Nechte chvíli testera, zda si všimne tlačítka pro vyvolání command palette v statusbaru.
+Pokud ne, napovězte mu a sdělte mu klávesovou zkratku pro její otevření.
++
+Po otevření command pallete sledujte, zda tester chápe její význam a zda je schopen provést skrytí požadovaných panelů.
++
+Pokud tester využije vyhledávání příkazů, zeptejte se, zda filtrování příkazů probíhá dle očekávání.
+
+. *Přepněte editor do režimu celé obrazovky*
++
+Tester by měl využít command palette, se kterou se v předchozím kroku seznámil.
++
+Je výsledek dle očekávání testera? Není zmaten nebo překvapen z toho, že se skrylo okno prohlížeče?
+
+. *Zrušte zobrazení celé obrazovky a zobrazte opět editor na webové stránce*
++
+Pro opuštění režimu celé obrazovky může uživatel využít opět příkaz v paletě, nebo klávesu ESC.
 
 === Průběh testování
 
