@@ -9,26 +9,29 @@
 
 ===== Postřehy před testováním
 
-. Je občasným uživatelem Markdownu. Pro editaci používá Sublime Editor.
+* Je občasným uživatelem Markdownu. Pro editaci používá Sublime Editor.
 
 ===== Testování dle scénářů
 
-. Outline
-  . Sekci uživatel přesouval přes označení textu a ctrl-x/ctrl-p. Outline považoval za toolbar a proto se ani nepokoušel sekce přesouvat -- zmatení možná vzniklo v důsledku technicky pojmenovaných sekcí.
-  . Dále zápasil s odscrollováním na sekci skrze outline -- uživatel se dlouho pokoušel odscrollovat na jednu sekci, ale místo toho neustále vyvolával drag akci. Až po upozorněnění na handles po stranách zjistil se mu podařilo konzistentně scrollovat. Pro uživatele bylo přirozené kliknout kamkoliv na položku, nikoliv jen na malý handle po pravé straně.
-  . Vzhledem k absenci scrollbaru byla možnost scrollování neočividná -- na první pohled outline vypadá jako že se právě vešel.
-. Vyhledávání
-  . Při pokusu o vyhledávání se otevřelo vyhledávání browseru -- byla nutná intervence s kliknutím do editoru. 
-  . Zobrazení všech ("All") nálezů zavřelo UI vyhledávání, což bylo matoucí.
-  . Až na tlačítko pro regulární výraz (které uživatel pochopil ihned), nebylo hned jasné co dělají ta ostatní -- při najetí myši se tooltip nezobrazil ihned, ale až po chvíli.
-  . Uživatel explorativně klikl na tlačítko +, což pro změnu zmátlo mě, protože to otevřelo funkci replace, o které jsem si myslel, že nebyla implementována (+ je pro mě vskutku matoucí)
-. Command Paleta
-  . Při požadavku na fullscreen uživatel automaticky stikl klávesu F11 (standardní zkratka pro fullscreen prohlížeče).
-  . Uživatel několikrát marně očima prošel celé rozhraní a command paleta mu musela být ukázána.
-  . Klávesová zkratka není nikde zmíněna a i po sdělení ji uživatel nemohl vyvolat, neboť editor neměl focus. Dále pak raději využíval klikání na tlačítko command palety.
-. Collapse sekce
-  . Collapse ikonka byla velmi nenápadná
-  . Zabalení prázdné kapitoly ("Heading can also contain formatting") se ikonka změnila na červenou a další klikání to neopravilo, což uživatele zmátlo.
+* Outline
+** Sekci uživatel přesouval přes označení textu a ctrl-x/ctrl-p. Outline považoval za toolbar a proto se ani nepokoušel sekce přesouvat -- zmatení možná vzniklo v důsledku technicky pojmenovaných sekcí.
+** Dále zápasil s odscrollováním na sekci skrze outline -- uživatel se dlouho pokoušel odscrollovat na jednu sekci, ale místo toho neustále vyvolával drag akci. Až po upozorněnění na handles po stranách zjistil se mu podařilo konzistentně scrollovat. Pro uživatele bylo přirozené kliknout kamkoliv na položku, nikoliv jen na malý handle po pravé straně.
+** Vzhledem k absenci scrollbaru byla možnost scrollování neočividná -- na první pohled outline vypadá jako že se právě vešel.
+
+* Vyhledávání
+** Při pokusu o vyhledávání se otevřelo vyhledávání browseru -- byla nutná intervence s kliknutím do editoru. 
+** Zobrazení všech ("All") nálezů zavřelo UI vyhledávání, což bylo matoucí.
+** Až na tlačítko pro regulární výraz (které uživatel pochopil ihned), nebylo hned jasné co dělají ta ostatní -- při najetí myši se tooltip nezobrazil ihned, ale až po chvíli.
+** Uživatel explorativně klikl na tlačítko +, což pro změnu zmátlo mě, protože to otevřelo funkci replace, o které jsem si myslel, že nebyla implementována (+ je pro mě vskutku matoucí)
+
+* Command Paleta
+** Při požadavku na fullscreen uživatel automaticky stikl klávesu F11 (standardní zkratka pro fullscreen prohlížeče).
+** Uživatel několikrát marně očima prošel celé rozhraní a command paleta mu musela být ukázána.
+** Klávesová zkratka není nikde zmíněna a i po sdělení ji uživatel nemohl vyvolat, neboť editor neměl focus. Dále pak raději využíval klikání na tlačítko command palety.
+
+* Collapse sekce
+** Collapse ikonka byla velmi nenápadná
+** Zabalení prázdné kapitoly ("Heading can also contain formatting") se ikonka změnila na červenou a další klikání to neopravilo, což uživatele zmátlo.
   
 ===== Shrnutí testování
 

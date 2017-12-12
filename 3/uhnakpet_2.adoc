@@ -13,22 +13,26 @@
 
 ===== Testování dle scénářů
 
-. Neočekával od samotného psaní nic nového/neobvyklého (což editor ani nenabízí), spíše se zaměřil na funkcionality kolem.
-. Outline
-  . Sekci se nejprve pokoušel označit a přesunout klávesovými zkratkami (vi keybindings)
-  . Narazil na problém nemožnosti změnit indent kapitoly
-  . Při zabalení sekce celá outline poskočí a není jasné kde uživatel byl
-. Vyhledávání
-  . Tooltip pro tlačítka nevyskočí ihned footnote:[Mám podezření, že v důsledku výkonostních problémů notebooku trvalo tooltipu asi 2x delší dobu se zobrazit.]
-  . Replace all je schované pod nejednoznačným tlačítkem "+"
-. Fullscreen
-  . Uživatel stikl F11 pro fullscreen. Prohlížeč se sice stal fullscreen, ale editor na to nijak nereagoval a zachoval si svůj fixní rozměr
-. Command Palette
-  . "Tlačítko" pro paletu uživatel považoval za součást status line
-  . Kliknutí na položku v paletě akci nevyvolá, a navíc se zavře. Uživatel musel být vyzván k použití vyhledávacího pole a kurzorových kláves
-. Collapse sekce
-  . Pro zabalení sekce uživatel označil kus textu a snažil se nejprve přes pravý klik najít možnost jak sekci zabalit. Až poté si všiml ikonky pro zabalení. Musel však být upozorněn, že zabalení je podle syntaxe, nikoliv selekce.
-  . Ač uživatel poznamenal, že ikonka je malá, tak rovněz zmínil, že pokud o funkcionalitě už ví, tak (příliš) malá ikonka není na škodu
+* Neočekával od samotného psaní nic nového/neobvyklého (což editor ani nenabízí), spíše se zaměřil na funkcionality kolem.
+* Outline
+** Sekci se nejprve pokoušel označit a přesunout klávesovými zkratkami (vi keybindings)
+** Narazil na problém nemožnosti změnit indent kapitoly
+** Při zabalení sekce celá outline poskočí a není jasné kde uživatel byl
+
+* Vyhledávání
+** Tooltip pro tlačítka nevyskočí ihned footnote:[Mám podezření, že v důsledku výkonostních problémů notebooku trvalo tooltipu asi 2x delší dobu se zobrazit.]
+** Replace all je schované pod nejednoznačným tlačítkem "+"
+
+* Fullscreen
+** Uživatel stikl F11 pro fullscreen. Prohlížeč se sice stal fullscreen, ale editor na to nijak nereagoval a zachoval si svůj fixní rozměr
+
+* Command Palette
+** "Tlačítko" pro paletu uživatel považoval za součást status line
+** Kliknutí na položku v paletě akci nevyvolá, a navíc se zavře. Uživatel musel být vyzván k použití vyhledávacího pole a kurzorových kláves
+
+* Collapse sekce
+** Pro zabalení sekce uživatel označil kus textu a snažil se nejprve přes pravý klik najít možnost jak sekci zabalit. Až poté si všiml ikonky pro zabalení. Musel však být upozorněn, že zabalení je podle syntaxe, nikoliv selekce.
+** Ač uživatel poznamenal, že ikonka je malá, tak rovněz zmínil, že pokud o funkcionalitě už ví, tak (příliš) malá ikonka není na škodu
 
 ===== Shrnutí testování
 
