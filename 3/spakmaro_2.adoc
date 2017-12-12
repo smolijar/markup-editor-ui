@@ -6,7 +6,7 @@
 - iOS programátor
 - skúsenosť so Sublime Textom
 - bez skúseností s markdownom
-- link:+https://youtu.be/wy5rniuNBic+[YouTube video]
+- link:++https://youtu.be/wy5rniuNBic++[YouTube video]
 
 
 ===== Testování dle scénářů

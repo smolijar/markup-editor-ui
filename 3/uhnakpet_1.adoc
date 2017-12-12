@@ -4,8 +4,8 @@
 
 - Absolvent FIT ČVUT
 - Programátor, cvičící FIT ČVUT
-- link:+https://youtu.be/vKBwz7VgMf4+[YouTube video - část 1]
-- link:+https://youtu.be/q-27SnxytnY+[YouTube video - část 2]
+- link:++https://youtu.be/vKBwz7VgMf4++[YouTube video - část 1]
+- link:++https://youtu.be/q-27SnxytnY++[YouTube video - část 2]
 
 ===== Postřehy před testováním
 

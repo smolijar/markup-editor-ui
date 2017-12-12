@@ -5,7 +5,7 @@
 - 25 let
 - Absolvent FIT ČVUT
 - Programátor
-- link:+https://youtu.be/NrujC-uCbyw/+[YouTube video]
+- link:++https://youtu.be/NrujC-uCbyw/++[YouTube video]
 
 ===== Postřehy před testováním
 - Používá markdown jazyk pro psaní dokumentace k projektům

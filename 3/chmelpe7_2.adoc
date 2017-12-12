@@ -5,7 +5,7 @@
 - 23 let
 - Studentka VŠE
 - Asistentka projektového managera
-- link:+https://youtu.be/U9lYB043d-c/+[YouTube video]
+- link:++https://youtu.be/U9lYB043d-c/++[YouTube video]
 
 ===== Postřehy před testováním
 - Nikdy nepoužívala LML jazyky, před testováním byla seznámena se základními principy

@@ -3,8 +3,8 @@
 ===== Informace o testerovi
 
 - vyučující FIT ČVUT
-- link:+https://youtu.be/WWv59TE-0v0+[YouTube video]
-- link:+https://youtu.be/fA7pxaCjgrI+[YouTube video - outline předělávka]
+- link:++https://youtu.be/WWv59TE-0v0++[YouTube video]
+- link:++https://youtu.be/fA7pxaCjgrI++[YouTube video - outline předělávka]
 
 ===== Postřehy před testováním
 

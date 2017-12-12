@@ -6,7 +6,7 @@
 - systemový administrátor
 - používateľ VIMu
 - bez skúseností s markdown editormi, Sublime Text a pod.
-- link:+https://youtu.be/uZp2dWz1TZU+[YouTube video]
+- link:++https://youtu.be/uZp2dWz1TZU++[YouTube video]
 
 
 ===== Testování dle scénářů
