@@ -1,0 +1,38 @@
+==== Testování #2 - Anna Hrabalová
+
+===== Informace o testerovi
+
+* Studentka VŠE
+link:https://www.youtube.com/watch?v=ijhTNnQSPL8[Záznam]
+
+===== Postřehy před testováním
+
+* Stručně seznámena s jazykem Markdown
+* Malé zkušenosti s textovými editory
+
+===== Testování dle scénářů
+Zorientovala se v editoru, poznala náhled, zdrojový kód,
+pochopila, že outline je generovaná z nadpisů.
+Bez obtíží upravila obsah, přidala bold syntax.
+
+Přesouvání sekcí hledala správně v outline,
+ale nebylo zprvu zřejmé, že k tomu slouží handle.
+Jakmile vyzkoušela použití handle, pochopila z animace, že se jedná o přesun
+a že může celou sekci přesunout jinam.
+
+Našla řetězec v textu zkratkou `Ctrl+F`,
+sekci v outline a proklikla se správně do editoru.
+
+Delší chvíli nemohla najít tlačítko pro command paletu
+(neprozradil jsem zkratku a čekal, zda si poradí, pozn.).
+Po jejím otevření však pochopila k čemu je a jak se používá,
+navzdory tomu, že není zvyklá s ní v editoru pracovat.
+Našla správné volby pro přepnutí vzhledu,
+ale jejich názvy jí připadaly zmatečné.
+Do fullscreen vstoupila již bez komplikací a opustila jej standardně pomocí ESC.
+
+===== Shrnutí testování
+
+* Popisky v příkazech jsou nejasné
+* Chování příkazů pro přepínání módu je zmatené. Outline je togle, ale přepínání mezi módy nikoliv.
+* Tlačítko pro vyvolání command palette je špatně k nalezení
