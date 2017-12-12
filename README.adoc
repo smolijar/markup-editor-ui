@@ -15,7 +15,7 @@ link:./2.adoc[Rešerše + Hi-fi prototype]
 
 === Testing
 
-...
+link:./3.adoc[Testování]
 
 == Suggested contribution workflow
 

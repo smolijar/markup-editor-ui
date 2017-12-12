@@ -1,0 +1,24 @@
+==== Testování #7 - Lucie Tomišková
+
+===== Informace o testerovi
+
+- 23 let
+- Studentka VŠE
+- Asistentka projektového managera
+- link:+https://youtu.be/U9lYB043d-c/+[YouTube video]
+
+===== Postřehy před testováním
+- Nikdy nepoužívala LML jazyky, před testováním byla seznámena se základními principy
+- Pro editaci textových souborů nejčastěji používá Microsoft Word
+
+===== Testování dle scénářů
+. Uživatelka byla seznámena se syntaxí jazyka Markdown krátce před testováním. Neměla žádné problémy se základním formátováním (tučný text, nadpis).
+. Přesunutí hlavních sekcí v outline nefunguje spolehlivě, uživatelce se podařilo až zhruba na třetí nakliknutí. Po přesunutí sekce se nesynchronizoval scroll u preview módu, uživatelka byla lehce zmatená.
+. Uživatelka bez nápovědy správně stiskla klávesovou zkratku pro vyhledávání, nicméně po předchozím kroku neměl editor focus a spustilo se defaultní vyhledávání v browseru. Bylo nutné napovědět, že je nutné kliknout dovnitř editoru, poté již vyhledávání proběhlo bez problémů.
+. Uživatelka neměla ponětí o klávesové zkratce pro vyvolání command pallete, tlačítka v bottom baru si nevšimla, bylo nutné napovědět klávesovou zkratku. Po vyvolání command pallete chtěla zvolit možnost pomocí kurzoru myši, tato možnost ale není podporována a došlo k zavření command pallete. Na druhý pokus již správně odhadla, že je nutné využít klávesnice pro volbu možnosti a bez problému zvládla přepínat mezi jednotlivými módy. Na možnost rychlé volby napsáním prvních písmen možnosti nepřišla.
+
+===== Shrnutí testování
+- Uživatelka ocenila celkovou jednoduchost a přehlednost jak samotného editoru, tak i jazyka Markdown, se kterým se doposud nesetkala.
+- Při přesouvání hlavních sekcí v outline dochází k chybě kdy se správně změní kurzor, ale po kliknutí a táhnutí se nic neděje. Zároveň se občas i špatně odscrolluje preview mód.
+- Pokud není focusnutý editor tak při stisku klávesové zkratky pro vyhledávání dojde ke spuštění vyhledávání v browseru.
+- Z testování je očividné, že pro použitelnost editoru mimo IT experty je nutné implementovat alespoň základní nápovědu při prvním spuštění, která uživatele seznámí s editorem a klávesovými zkratkami.
