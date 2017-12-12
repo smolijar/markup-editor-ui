@@ -5,7 +5,7 @@
 * 26 let
 * Absolvent FIT ČVUT
 * Programátor
-link:https://www.youtube.com/watch?v=kN7BxRBe-pI[Záznam]
+* link:https://www.youtube.com/watch?v=kN7BxRBe-pI[Záznam]
 
 ===== Postřehy před testováním
 

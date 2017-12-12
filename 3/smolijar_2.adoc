@@ -3,7 +3,7 @@
 ===== Informace o testerovi
 
 * Studentka VŠE
-link:https://www.youtube.com/watch?v=ijhTNnQSPL8[Záznam]
+* link:https://www.youtube.com/watch?v=ijhTNnQSPL8[Záznam]
 
 ===== Postřehy před testováním
 
