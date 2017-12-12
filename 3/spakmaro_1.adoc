@@ -1,0 +1,41 @@
+==== Testovanie #7 - Martin
+
+===== Informace o testerovi
+
+- študent FIT ČVUT
+- systemový administrátor
+- používateľ VIMu
+- bez skúseností s markdown editormi, Sublime Text a pod.
+- link:+https://youtu.be/uZp2dWz1TZU+[YouTube video]
+
+
+===== Testování dle scénářů
+
+* Presúvanie sekcie
+** Úžívateľ po zadaní pokynu skopíroval danú časť textu v editore a prilepil ju na želané miesto. Možnosť presunutia sekcii v outline mu nebola na prvý pohľad zrejmá.
+** Po usmernení že sa dá na presun sekcie využiť outline nachádzajúca sa v lavej časti editora užívateľ klikol na pravú časť obdlžníčka s názvom sekcie, ktorá nevyvolala možnosť presunu.
+** Po chvíli lokalizoval "ťahací bod" v outline na základne zmeny kurzora
+** Pri presúvaní, sekcie užívateľ skúsil vnoriť top level sekciu do inej top level sekcie, čo sa mu nepodarilo.
+Po neúnávnom skúšaní rezignoval a presunul to na miesto pri ktorom mu editor dal vizuálnu indikáciu že presun je možný (pod inú top level sekciu).
+
+* Vyhľadávanie v texte
+** Užívateľ použil štandardnú klavesovú skratku cmd+F a vyhľadal jednoduchý string. Na informáciu, že je možné použiť regulárny výraz, výraz hneď vpísal do vyhľadávacieho poľa, bez aktivácie tejto funkcionality cez tlačidlo označené ".*", užívateľ nechápal prečo mu editor nevracia žiadne nájdené výsledky (testované dodatočne, chýba na zázname).
+** Počas testovania sa prejavila chyba, vyhľadávania bolo v pravej časti odseknuté.
+
+* Prepínanie medzi režimom zobrazenia (command paleta)
+** Užívateľ sa pokúsil zapnúť fullscreen režim klavesovými skratkami obsahujúcimi písmeno F, bez úspechu.
+Po rade využiť command palletu, ju bez problémov otvoril klávesovou skratkou cmd+shift+P.
+** Pomocou command pallety už nemal problém opustiť fullscreen režim a aktivovať ostatné režimy zobrazenia editoru (editor, preview, editor+preview)
+** Počas testovania nastala chyba, kde klávesovú skratku na otvorenie command palety (cmd+shift+P) začal odchytávať doplnok v prehliadači (Pocket) a stránku s editorom odložil do zoznamu na neskoršie čítanie. ** Užívateľovi bolo poradené, že existuje aj iná možnosť ako otvoriť command palletu a vtedy využil tlačidla v ľavom dolnom rohu editora.
+  
+===== Shrnutí testování
+* Presun sekcie v outline je neintuítivny
+* Užívateľovi chýbala nemožnosť vnoriť sekciu pri presune
+* Neaktivovaná regex search funkcionalita pri vyhľadaní cez reg. výraz
+
+
+===== Vlastní postřehy
+* (bug) Skratku na otvorenie cmd palety odchytával doplnok prehliadača (pravdepodobne v preview režime)
+* (bug) Pri ťahaní sekcie v outline a scrollovaní samotnej outline (pri presune sekcie na úplny spodok outline) sa pozícia do ktorej ťahaná sekcia padala nezhodovala s realnou pozíciou sekcie na obrazovke.
+* (bug) Zbalená sekcia sa po presunutí rozbalila 
+* (bug) Odseknutý panel pre vyhľadávanie (macOS, chrome, 1440x900)
