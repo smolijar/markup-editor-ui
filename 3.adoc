@@ -109,7 +109,7 @@ V pomoci by byly základní zkratky a vysvětleny možnosti editoru.
 
 === Vyhodnocení
 
-TODO summary, suggested/implemented fixes
+Návrhy na zlepšení jsou shrnuty i s postřehy z testování v závěru práce.
 
 == Usability testování
 
@@ -239,3 +239,5 @@ Některé z nich jsou již hotové, ostatní jsou pouze zaznamenány v issue tra
 * [x] Schovány _handles_ v outline pro přesouvání sekcí.
 * [x] _Handles_ přesunuty doprava.
 * [x] Command pallete je ovladatelná myší.
+* [ ] Implementace toolbar pro využitelnost pro BFU.
+* [ ] Chybné odscrolování při přesunu sekce.
