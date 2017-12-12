@@ -1,0 +1,37 @@
+==== Testovanie #8 - Jakub Ďurčík (durcijak)
+
+===== Informace o testerovi
+
+- študent FIT ČVUT (zapisaný predmet MI-NUR, durcijak)
+- iOS programátor
+- skúsenosť so Sublime Textom
+- bez skúseností s markdownom
+- link:+https://youtu.be/wy5rniuNBic+[YouTube video]
+
+
+===== Testování dle scénářů
+
+* Presúvanie sekcie
+** Užívateľ klikol a ťahal sekciu za nadpis, čo bez problémov fungovalo
+** Pri ďalšom pokuse užívateľ klikol do pravej časti, za nadpis sekcie a presun sa nepodaril 
+
+* Vyhľadávanie v texte
+** Užívateľ použil štandardnú klavesovú skratku cmd+F a vyhľadal jednoduchý string. Na informáciu, že je možné použiť regulárny výraz, výraz hneď vpísal do vyhľadávacieho poľa, bez aktivácie tejto funkcionality cez tlačidlo označené ".*" (po chvíli, bol na toto tlačidlo upozornený).
+** Po zadaní pokynu na nahradenie textu, užívateľ chvíľu blúdil v rozhraní search panelu, ale nakoniec našiel tlačidlo na rozšírenie panelu na search and replace.
+
+* Prepínanie medzi režimom zobrazenia (command paleta)
+** Úžívateľ po chvíli skúmania UI otvoril command paletu tlačidlom umiestneným v ľavej časti status baru. Chýbal mu tam tooltip s klávesovou skratkou a tak po zbytok testu využíval toto tlačidlo.
+** Pre výber možnosti z command palety užívateľ klikol myšou na daný riadok s možnosťou, čo len zatvorilo command paletu bez želanej akcie. Užívateľa to nevystrašilo a pri ďalšom pokuse použil enter. Kliknutie myšou do command palety sa ale opakovalo viac krat počas testu, aj keď užívateľ vedel, že nefunguje.
+** Pomocou command pallety už nemal problém opustiť fullscreen režim a aktivovať ostatné režimy zobrazenia editoru (editor, preview, editor+preview)
+** Ocenil by tlačítka na prepínanie režimov zobrazenia v status bare
+
+===== Shrnutí testování
+* Presun sekcie v outline je neintuitívny
+* Užívateľovi chýbal tooltip na command palete s klávesovou skratkou
+* Neaktivovaná regex search funkcionalita pri vyhľadaní cez reg. výraz
+* V status bare užívateľovi chýbali tlačidla na prepínanie režimov zobrazenia (editor/preview)
+
+
+===== Vlastní postřehy
+* (bug) Po otvorení command palety sa neschoval predtým otvorený search panel
+* (bug) Odseknutý panel pre vyhľadávanie (macOS, chrome, 2560x1440)
