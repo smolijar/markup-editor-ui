@@ -1,22 +1,40 @@
-==== Testování #1
+==== Testování #1 - Ing. Jiří Šmolík
 
 ===== Informace o testerovi
 
+* 26 let
+* Absolvent FIT ČVUT
+* Programátor
+link:https://www.youtube.com/watch?v=kN7BxRBe-pI[Záznam]
+
 ===== Postřehy před testováním
-// TODO my observation (something interesting about subject etc.)
-// TODO subject attitude, first impression, any interesting thought comments
+
+* Tester zná LML jazyky Markdown, Asciidoc.
+* Zkušenosti práce s editory VS Code (také Sublime, Atom a další).
+* Pro psaní Markdown dokumentů využívá rozšíření v Code.
+* Ocenil přehlednost editoru z prvního dojmu
 
 ===== Testování dle scénářů
-// TODO if nothing out of the ordinary, one simple short sentence for each task
-// elaborate everything interesting (subject struggles to finish task, they behave unexpectidly, search for controls, mumbles something etc.)
-// Try to spot at least two interesting things when testing
+Rychle se zorientoval v editoru, pochopil, k čemu jsou jednotlivé komponenty
+(že se jedná o zdrojový kód, náhled, outline apod.), proscroloval editor a outline.
+S editací neměl nejmenší problémy.
+Nejdříve si nevšiml záznamu o automatickém uložení a řekl, že o obsah při refreshi přijde.
+Následně si všiml informace a správně pochopil tuto funkci.
+
+Přesunutí sekcí vykonal velmi rychle.
+S outline se již seznámil v předchozím scénáři a již si všiml handles.
+
+K vyhledání textu i sekce použil zkratku `Ctrl+F`,
+protože sekci nechtěl hledat ve větším dokumentu očima.
+Funkce prokliku z outline si ale byl vědom, vyzkoušel si ji v předchozím scénáři.
+
+Tlačítko command palette po chvíli našel
+(neprozradil jsem zkratku a čekal, zda si poradí, pozn.).
+Přišlo mu nepřehledné a zavádějící označení některých položek v menu.
 
 ===== Shrnutí testování
-//  TODO ask subject about problematic/interesting parts
-//  ask for suggestions to improve expirience.
 
-// TODO ask about favourite/hated aspects of the editor
-// (useless if not specific, propt the subject if needed to)
-
-//  TODO write short summary (3 senteces or few bullets) how to improve the editor,
-//  or which features are favorite (and should not be removed, or could be further expanded)
+* Testerovi chyběla funkce goto line (je tam, kvůli absenci helpu není možnost se o ní dozvědět)
+* Pro změnu layoutu by očekával tlačítka v rozích sloupečků
+* Přál by si volitelnou změnu ("resize") rozdělení editoru a preview
+* Ocenil čistý a přehledný design (zůčastnil se testování jako jeden z posledních po velké změně v grafickém vzhledu, pozn.)
