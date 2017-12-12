@@ -251,3 +251,4 @@ Některé z nich jsou již hotové, ostatní jsou pouze zaznamenány v issue tra
 * [x] Command pallete je ovladatelná myší.
 * [ ] Implementace toolbar pro využitelnost pro BFU.
 * [ ] Chybné odscrolování při přesunu sekce.
+* [ ] Na některých zařízeních špatné zobrazení _handle_ ikonky.
