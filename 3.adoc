@@ -9,16 +9,16 @@ include::_about.adoc[]
 === Autoři
  *Šmolík Jaroslav* (vedoucí týmu)::
     * mailto:smolijar@fit.cvut.cz[]
-    * XYZ
+    * Heuristická analýza, brainstorming scénářů, formalizace scénářů, Testování #1 #2
  Uhnák Peter::
     * mailto:uhnakpet@fit.cvut.cz[]
-    * XYZ
+    * Heuristická analýza, brainstorming scénářů, Testování #3 #4
  Špak Maroš::
     * mailto:spakmaro@fit.cvut.cz[]
-    * XYZ
+    * Heuristická analýza, brainstorming scénářů, Testování #7 #8
  Chmelař Petr::
     * mailto:chmelpe7@fit.cvut.cz[]
-    * XYZ
+    * Heuristická analýza, brainstorming scénářů, Testování #5 #6
 
 == Heuristická analýza
 
@@ -219,13 +219,20 @@ Pro opuštění režimu celé obrazovky může uživatel využít opět příkaz
 === Průběh testování
 
 include::3/smolijar_1.adoc[]
+
 include::3/smolijar_2.adoc[]
+
 include::3/uhnakpet_1.adoc[]
+
 include::3/uhnakpet_2.adoc[]
-include::3/spakmaro_1.adoc[]
-include::3/spakmaro_2.adoc[]
+
 include::3/chmelpe7_1.adoc[]
+
 include::3/chmelpe7_2.adoc[]
+
+include::3/spakmaro_1.adoc[]
+
+include::3/spakmaro_2.adoc[]
 
 === Vyhodnocení
 
