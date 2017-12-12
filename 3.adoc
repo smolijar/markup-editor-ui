@@ -3,6 +3,7 @@
 Semestrální projekt MI-NUR
 :icons: font
 :toc:
+:toclevels: 3
 
 include::_about.adoc[]
 
@@ -25,7 +26,9 @@ include::_about.adoc[]
 V týmu jsme provedli heuristickou analýzu prototypu dle link:https://www.nngroup.com/articles/ten-usability-heuristics/[10 Usability Heuristics for User Interface Design].
 Následují výsledné poznatky ke každému bodu:
 
-=== Visibility of system status
+=== Diskuse
+
+==== Visibility of system status
 > The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.
 
 * Systém informuje uživatele o vzhledu dokumentu, pozici kurzoru, velikosti dokumentu (počet řádek) apod.
@@ -37,7 +40,7 @@ tedy že by během nepřerušeného vstupu byl dokument renderován třeba každ
 Alternativně by mohlo být možné zapnout skutečný real-time rendering pro menší dokumenty,
 protože pro většinu kratších dokumentů toto nebude představovat reálné zpomalení.
 
-=== Match between system and the real world
+==== Match between system and the real world
 > The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.
 
 * Editor neobsahuje strukturované nabídky, manipulace mimo text je řešená přes vyhledávací command paletu.
@@ -45,7 +48,7 @@ protože pro většinu kratších dokumentů toto nebude představovat reálné 
 * Editor neobsahuje textové popisky (atribut _title_) u ovládacích prvků.
 Mohl by popsat při najetí na handle v outline, že se jedná o přesun sekce apod.
 
-=== User control and freedom
+==== User control and freedom
 > Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.
 
 * Editor implementuje standardní undo/redo pro textovou manipulaci.
@@ -55,7 +58,7 @@ který se provádí po dokonání každé změny.
 Editor neumožňuje skrýt editační i náhledový sloupeček současně.
 Při spuštění fullscreen módu je možné kromě příkazu opustit zobrazení standardně klávesou ESC.
 
-=== Consistency and standards
+==== Consistency and standards
 > Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.
 
 * Tlačítko Command palette v statusbaru není vizuálně odlišné od neinteraktivních prvků (pozice kurzoru apod.)
@@ -64,7 +67,7 @@ díky tomu nemusí být zřejmé že se jedná o tlačítko
 * Příkazy v paletě je monžé vybrat pouze pomocí klávesnice a nereagují na myš.
 Pokud uživatel může otevřít paletu myší, očekává, že se může i myší navigovat.
 
-=== Error prevention
+==== Error prevention
 > Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.
 
 * Editor aplikačně nemaže žádný obsah, není třeba potvrzení.
@@ -72,20 +75,20 @@ Pokud uživatel může otevřít paletu myší, očekává, že se může i myš
 Přesouvání je však animované a je na konci akce zřetelné, k jaké změně došlo.
 Je tak snadné se vrátit zpět. Tento návrat je možné opětovným přetažením, nebo standardním UNDO.
 
-=== Recognition rather than recall
+==== Recognition rather than recall
 > Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.
 
 * V command pallette je, jako je zvykem, implementované vyhledávání nikoli podle shody prefixu, ale libovolného podřetězce.
 Díky tomu může uživatel snadno rychle nálézt volbu, aniž by si pamatoval přesný název.
 Editor by mohl navíc implementovat něco na principu tagů, aby bylo možné vyhledávat volbu `Toggle line numbers` pomocí řetězce `gutter`, apod.
 
-=== Flexibility and efficiency of use
+==== Flexibility and efficiency of use
 > Accelerators — unseen by the novice user — may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
 
 * Command palette cílí na efektivní a rychlé využívání.
 * Chybí klávesové zkratky na běžné úkony (základní formátování textu, přechod mezi módy apod.)
 
-=== Aesthetic and minimalist design
+==== Aesthetic and minimalist design
 > Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.
 
 * Drag handles v outline zabírají příliš zbytečného místa.
@@ -93,7 +96,7 @@ Bylo by možné je implicitně skrývat a zobrazit až po najetí myší.
 * Celé datum u informace o posledním uložení je zbytečné.
 Pro takto netrvalá data by stačil čas.
 
-=== Help users recognize, diagnose, and recover from errors
+==== Help users recognize, diagnose, and recover from errors
 > Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
 
 * Editor v současné době neimplementuje pokročilé funkce (drag&drop obrázku apod.) a nezobrazuje uživateli editoru žádné chyby.
@@ -101,7 +104,7 @@ Pro takto netrvalá data by stačil čas.
 V chybě je nápověda, že se nejspíše jedná o zapomenuté přiložení externího JS.
 V tomto režimu je dostupná pouze HTML textarea.
 
-=== Help and documentation
+==== Help and documentation
 > Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.
 
 * Editor neposkytuje nyní formu dokumentace, či pomoci. Měla by přibýt například jako ikonka do statusbaru.
