@@ -119,6 +119,7 @@ V tomto režimu je dostupná pouze HTML textarea.
 * Editor neposkytuje nyní formu dokumentace, či pomoci. Měla by přibýt například jako ikonka do statusbaru.
 V pomoci by byly základní zkratky a vysvětleny možnosti editoru.
 ** *chyba, střední priorita* - editor je použitelný bez dokumentace, pro pokročilé funkce je potřebná dokumentace.
+
 === Vyhodnocení
 
 Návrhy na zlepšení jsou shrnuty i s postřehy z testování v závěru práce.
