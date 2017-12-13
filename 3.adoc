@@ -269,6 +269,9 @@ Některé z nich jsou již hotové, ostatní jsou pouze zaznamenány v issue tra
 
 ==== Ostatní
 * [x] _Handles_ přesunuty doprava.
+* [x] Oprava špatně oříznutého find dialogu
+* [x] Oprava: klik v outline na text přesunuje sekci, nenaviguje editor
+* [ ] Občasná ztráta focusu
 * [ ] Implementace toolbar pro využitelnost pro BFU.
 * [ ] Chybné odscrolování při přesunu sekce.
 * [ ] Na některých zařízeních špatné zobrazení _handle_ ikonky.
