@@ -251,13 +251,24 @@ include::3/spakmaro_2.adoc[]
 Na základě heuristické analýzi a testování jsme stručně popsali změny, které by se měli v editoru implementovat.
 Některé z nich jsou již hotové, ostatní jsou pouze zaznamenány v issue trackeru.
 
-* [ ] Atributy title u ovládacích prvků
+==== Heuristická analýza
+
+===== Vysoká priorita
 * [x] Vizuálně odlišit Command Palette tlačítko
-* [x] Zobraz pouze čas u autosave (ne datum)
-* [ ] Help (stručný manuál/tutoriál)
-* [x] Schovány _handles_ v outline pro přesouvání sekcí.
-* [x] _Handles_ přesunuty doprava.
 * [x] Command pallete je ovladatelná myší.
+
+===== Střední priorita
+* [ ] Atributy title u ovládacích prvků
+* [ ] Doplnění klávesových zkratek pro formátování textu a přepínání pohledů
+* [ ] Help (stručný manuál/tutoriál)
+
+===== Nízká priorita
+* [ ] Možnost live-render nebo throttle
+* [x] Zobraz pouze čas u autosave (ne datum)
+* [x] Schovány _handles_ v outline pro přesouvání sekcí.
+
+==== Ostatní
+* [x] _Handles_ přesunuty doprava.
 * [ ] Implementace toolbar pro využitelnost pro BFU.
 * [ ] Chybné odscrolování při přesunu sekce.
 * [ ] Na některých zařízeních špatné zobrazení _handle_ ikonky.
